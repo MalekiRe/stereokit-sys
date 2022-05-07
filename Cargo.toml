@@ -10,6 +10,13 @@ repository = "https://github.com/MalekiRe/stereokit-sys/"
 homepage = "https://stereokit.net/"
 readme = "README.md"
 keywords = ["stereokit", "XR", "VR", "AR", "sys"]
+include = [
+    "Cargo.toml",
+    "build.rs",
+    "**/src/lib.rs",
+    "stereokit.h",
+    "README.md"
+]
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 [build-dependencies]
 bindgen = "0.59.2"
