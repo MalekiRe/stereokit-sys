@@ -1,4 +1,4 @@
-/target
-/Cargo.lock
-/stereokit-sys.iml
-/.idea/
+target
+Cargo.lock
+stereokit-sys.iml
+.idea
