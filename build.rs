@@ -30,7 +30,10 @@ impl ParseCallbacks for MacroCallback {
 fn main() {
 	// Tell cargo to tell rustc to link the system bzip2
 	// shared library.
-	println!("cargo:rustc-link-lib=StereoKitC");
+
+	let dst = cmake::build("StereoKit");
+	println!("cargo:rustc-link-search=native={}", dst.display());
+	//println!("cargo:rustc-link-lib=StereoKitC");
 
 	// Tell cargo to invalidate the built crate whenever the wrapper changes
 	println!("cargo:rerun-if-changed=static-wrapper.h");
