@@ -33,7 +33,7 @@ fn main() {
 
 	let dst = cmake::build("StereoKit");
 	println!("cargo:rustc-link-search=native={}", dst.display());
-	//println!("cargo:rustc-link-lib=StereoKitC");
+	println!("cargo:rustc-link-lib=StereoKitC");
 
 	// Tell cargo to invalidate the built crate whenever the wrapper changes
 	println!("cargo:rerun-if-changed=static-wrapper.h");
