@@ -16,15 +16,13 @@ impl ParseCallbacks for MacroCallback {
 		self.macros.write().unwrap().insert(name.into());
 
 		match name {
-			"FP_NAN" =>{return MacroParsingBehavior::Ignore},
-			"FP_INFINITE" =>{return MacroParsingBehavior::Ignore},
-			"FP_ZERO" =>{return MacroParsingBehavior::Ignore}
-			"FP_SUBNORMAL" =>{return MacroParsingBehavior::Ignore},
-			"FP_NORMAL" =>{return MacroParsingBehavior::Ignore}
-			&_ => {}
+			"FP_NAN" =>MacroParsingBehavior::Ignore,
+			"FP_INFINITE" =>MacroParsingBehavior::Ignore,
+			"FP_ZERO" =>MacroParsingBehavior::Ignore,
+			"FP_SUBNORMAL" =>MacroParsingBehavior::Ignore,
+			"FP_NORMAL" =>MacroParsingBehavior::Ignore,
+			_ => MacroParsingBehavior::Default
 		}
-
-		MacroParsingBehavior::Default
 	}
 }
 fn main() {
