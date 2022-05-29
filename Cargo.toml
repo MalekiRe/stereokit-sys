@@ -1,24 +1,23 @@
 [package]
-name = "stereokit-sys"
-license = "MIT"
 description = "Low-Level Rust bindings around the StereoKitC library for XR"
-version = "0.1.1"
 edition = "2021"
-build = "build.rs"
-links = "StereoKitC"
-repository = "https://github.com/MalekiRe/stereokit-sys/"
 homepage = "https://stereokit.net/"
-readme = "README.md"
 keywords = ["stereokit", "XR", "VR", "AR", "sys"]
+license = "MIT"
+links = "StereoKitC"
+name = "stereokit-sys"
+repository = "https://github.com/MalekiRe/stereokit-sys"
+version = "0.1.1"
+
 include = [
-    "Cargo.toml",
-    "build.rs",
-    "**/src/lib.rs",
-    "dynamicwrapper.h",
-    "static-wrapper.h",
-    "StereoKit",
-    "README.md"
+  "Cargo.toml",
+  "build.rs",
+  "src/*",
+  "StereoKit",
+  "README.md",
 ]
+readme = "README.md"
+
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 [build-dependencies]
 bindgen = "0.59.2"
