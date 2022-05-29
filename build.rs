@@ -34,7 +34,7 @@ fn main() {
     println!("cargo:rustc-link-lib=StereoKitC");
 
     // Tell cargo to invalidate the built crate whenever the wrapper changes
-    println!("cargo:rerun-if-changed=static-wrapper.h");
+    println!("cargo:rerun-if-changed=src/static-wrapper.h");
     let macros = Arc::new(RwLock::new(HashSet::new()));
     // The bindgen::Builder is the main entry point
     // to bindgen, and lets you build up options for
@@ -42,7 +42,7 @@ fn main() {
     let bindings = bindgen::Builder::default()
         // The input header we would like to generate
         // bindings for.
-        .header("static-wrapper.h")
+        .header("src/static-wrapper.h")
         .blocklist_type("FP_NAN")
         .blocklist_type("FP_INFINITE")
         .blocklist_type("FP_ZERO")
