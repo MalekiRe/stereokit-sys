@@ -26,37 +26,27 @@ impl ParseCallbacks for MacroCallback {
     }
 }
 fn main() {
-    // Tell cargo to tell rustc to link the system bzip2
-    // shared library.
-
+    // Build StereoKit, and tell rustc to link it.
     let dst = cmake::build("StereoKit");
     println!("cargo:rustc-link-search=native={}", dst.display());
     println!("cargo:rustc-link-lib=StereoKitC");
 
     // Tell cargo to invalidate the built crate whenever the wrapper changes
     println!("cargo:rerun-if-changed=src/static-wrapper.h");
+
+    // Generate bindings to StereoKitC.
     let macros = Arc::new(RwLock::new(HashSet::new()));
-    // The bindgen::Builder is the main entry point
-    // to bindgen, and lets you build up options for
-    // the resulting bindings.
     let bindings = bindgen::Builder::default()
-        // The input header we would like to generate
-        // bindings for.
         .header("src/static-wrapper.h")
         .blocklist_type("FP_NAN")
         .blocklist_type("FP_INFINITE")
         .blocklist_type("FP_ZERO")
         .blocklist_type("FP_SUBNORMAL")
         .blocklist_type("FP_NORMAL")
-        .parse_callbacks(Box::new(MacroCallback {
-            macros: macros.clone(),
-        }))
-        // Tell cargo to invalidate the built crate whenever any of the
-        // included header files changed.
-        // Finish the builder and generate the bindings.
+        .parse_callbacks(Box::new(MacroCallback { macros }))
         .generate()
-        // Unwrap the Result and panic on failure.
         .expect("Unable to generate bindings");
+
     // Write the bindings to the $OUT_DIR/bindings.rs file.
     let out_path = PathBuf::from(env::var("OUT_DIR").unwrap());
     bindings
