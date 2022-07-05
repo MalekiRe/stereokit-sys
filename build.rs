@@ -27,9 +27,15 @@ impl ParseCallbacks for MacroCallback {
 }
 fn main() {
     // Build StereoKit, and tell rustc to link it.
-    let dst = cmake::build("StereoKit");
-    println!("cargo:rustc-link-search=native={}", dst.display());
-    println!("cargo:rustc-link-lib=StereoKitC");
+    let dst = cmake::Config::new("StereoKit")
+        // .define("SK_LINUX_EGL", "ON")
+        .define("SK_BUILD_SHARED_LIBS", "OFF")
+        .define("SK_BUILD_TESTS", "OFF")
+        .define("SK_PHYSICS", "OFF")
+        .build();
+    println!("cargo:rustc-link-search=native={}/lib", dst.display());
+    println!("cargo:rustc-link-lib=static=StereoKitC");
+    println!("cargo:rustc-link-lib=stdc++");
 
     // Tell cargo to invalidate the built crate whenever the wrapper changes
     println!("cargo:rerun-if-changed=src/static-wrapper.h");
