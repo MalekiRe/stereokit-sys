@@ -36,6 +36,13 @@ fn main() {
     println!("cargo:rustc-link-search=native={}/lib", dst.display());
     println!("cargo:rustc-link-lib=static=StereoKitC");
     println!("cargo:rustc-link-lib=stdc++");
+    println!("cargo:rustc-link-lib=X11");
+    println!("cargo:rustc-link-lib=GLX");
+    println!("cargo:rustc-link-lib=GL");
+    println!("cargo:rustc-link-lib=GLEW");
+    println!("cargo:rustc-link-lib=EGL");
+    println!("cargo:rustc-link-lib=openxr_loader");
+    println!("cargo:rustc-link-lib=fontconfig");
 
     // Tell cargo to invalidate the built crate whenever the wrapper changes
     println!("cargo:rerun-if-changed=src/static-wrapper.h");
