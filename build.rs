@@ -27,12 +27,12 @@ impl ParseCallbacks for MacroCallback {
 }
 fn main() {
     // Build StereoKit, and tell rustc to link it.
-    let dst = cmake::Config::new("StereoKit")
-        // .define("SK_LINUX_EGL", "ON")
-        .define("SK_BUILD_SHARED_LIBS", "OFF")
-        .define("SK_BUILD_TESTS", "OFF")
-        .define("SK_PHYSICS", "OFF")
-        .build();
+    let mut cmake_config = cmake::Config::new("StereoKit");
+    cmake_config.define("SK_LINUX_EGL", "ON");
+    cmake_config.define("SK_BUILD_SHARED_LIBS", "OFF");
+    cmake_config.define("SK_BUILD_TESTS", "OFF");
+    cmake_config.define("SK_PHYSICS", "OFF");
+    let dst = cmake_config.build();
     println!("cargo:rustc-link-search=native={}/lib", dst.display());
     println!("cargo:rustc-link-lib=static=StereoKitC");
     println!("cargo:rustc-link-lib=stdc++");
