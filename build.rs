@@ -54,11 +54,13 @@ fn main() {
 
     cargo_link!("stdc++");
     cargo_link!("X11");
-    cargo_link!("GLX");
     cargo_link!("GL");
-    cargo_link!("GLEW");
-    #[cfg(feature = "linux-egl")]
-    cargo_link!("EGL");
+    if cfg!(feature = "linux-egl") {
+        cargo_link!("EGL");
+    } else {
+        cargo_link!("GLEW");
+        cargo_link!("GLX");
+    }
     cargo_link!("openxr_loader");
     cargo_link!("fontconfig");
 
