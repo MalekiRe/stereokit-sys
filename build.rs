@@ -25,24 +25,41 @@ impl ParseCallbacks for MacroCallback {
         }
     }
 }
+
+macro_rules! cargo_cmake_feat {
+    ($feature:literal) => {
+        if cfg!(feature = $feature) {
+            "ON"
+        } else {
+            "OFF"
+        }
+    };
+}
+macro_rules! cargo_link {
+    ($feature:expr) => {
+        println!("cargo:rustc-link-lib={}", $feature);
+    };
+}
 fn main() {
     // Build StereoKit, and tell rustc to link it.
     let mut cmake_config = cmake::Config::new("StereoKit");
-    cmake_config.define("SK_LINUX_EGL", "ON");
     cmake_config.define("SK_BUILD_SHARED_LIBS", "OFF");
     cmake_config.define("SK_BUILD_TESTS", "OFF");
-    cmake_config.define("SK_PHYSICS", "OFF");
+    cmake_config.define("SK_LINUX_EGL", cargo_cmake_feat!("linux-egl"));
+    cmake_config.define("SK_PHYSICS", cargo_cmake_feat!("physics"));
     let dst = cmake_config.build();
+
     println!("cargo:rustc-link-search=native={}/lib", dst.display());
-    println!("cargo:rustc-link-lib=static=StereoKitC");
-    println!("cargo:rustc-link-lib=stdc++");
-    println!("cargo:rustc-link-lib=X11");
-    println!("cargo:rustc-link-lib=GLX");
-    println!("cargo:rustc-link-lib=GL");
-    println!("cargo:rustc-link-lib=GLEW");
-    println!("cargo:rustc-link-lib=EGL");
-    println!("cargo:rustc-link-lib=openxr_loader");
-    println!("cargo:rustc-link-lib=fontconfig");
+    cargo_link!("static=StereoKitC");
+
+    cargo_link!("stdc++");
+    cargo_link!("X11");
+    cargo_link!("GLX");
+    cargo_link!("GL");
+    cargo_link!("GLEW");
+    cargo_link!("EGL");
+    cargo_link!("openxr_loader");
+    cargo_link!("fontconfig");
 
     // Tell cargo to invalidate the built crate whenever the wrapper changes
     println!("cargo:rerun-if-changed=src/static-wrapper.h");
