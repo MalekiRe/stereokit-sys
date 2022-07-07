@@ -57,6 +57,7 @@ fn main() {
     cargo_link!("GLX");
     cargo_link!("GL");
     cargo_link!("GLEW");
+    #[cfg(feature = "linux-egl")]
     cargo_link!("EGL");
     cargo_link!("openxr_loader");
     cargo_link!("fontconfig");
