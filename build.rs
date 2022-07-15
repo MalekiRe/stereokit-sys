@@ -46,23 +46,31 @@ fn main() {
     cmake_config.define("SK_BUILD_SHARED_LIBS", "OFF");
     cmake_config.define("SK_BUILD_TESTS", "OFF");
     cmake_config.define("SK_LINUX_EGL", cargo_cmake_feat!("linux-egl"));
-    cmake_config.define("SK_PHYSICS", cargo_cmake_feat!("physics"));
+    cmake_config.define("SK_PHYSICS", "OFF"); // cannot get this to work on windows.
     let dst = cmake_config.build();
 
     println!("cargo:rustc-link-search=native={}/lib", dst.display());
     cargo_link!("static=StereoKitC");
-
-    cargo_link!("stdc++");
-    cargo_link!("X11");
-    cargo_link!("GL");
-    if cfg!(feature = "linux-egl") {
-        cargo_link!("EGL");
-    } else {
-        cargo_link!("GLEW");
-        cargo_link!("GLX");
+    if cfg!(windows) {
+        cargo_link!("static=openxr_loaderd");
+        //println!("cargo:rustc-link-search-native={}/build/_deps/reactphysics3d-build/Debug", dst.display());
     }
-    cargo_link!("openxr_loader");
-    cargo_link!("fontconfig");
+    else if cfg!(unix) {
+        if cfg!(target_os = "macos") {
+            panic!("Sorry, macos is not supported for stereokit.")
+        }
+        cargo_link!("stdc++");
+        cargo_link!("X11");
+        cargo_link!("GL");
+        if cfg!(feature = "linux-egl") {
+            cargo_link!("EGL");
+        } else {
+            cargo_link!("GLEW");
+            cargo_link!("GLX");
+        }
+        cargo_link!("openxr_loader");
+        cargo_link!("fontconfig");
+    }
 
     // Tell cargo to invalidate the built crate whenever the wrapper changes
     println!("cargo:rerun-if-changed=src/static-wrapper.h");
