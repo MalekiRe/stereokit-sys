@@ -13,7 +13,12 @@ include = [
   "Cargo.toml",
   "build.rs",
   "src/*",
-  "StereoKit",
+  "StereoKit/cmake",
+  "StereoKit/StereoKitC",
+  "StereoKit/CMakeLists.txt",
+  "StereoKit/Tools/include",
+  "StereoKit/Tools/skshaderc",
+  "StereoKit/Tools/skshaderc.exe",
   "README.md",
 ]
 readme = "README.md"
