@@ -54,13 +54,13 @@ fn main() {
     if cfg!(windows) {
         cargo_link!("static=openxr_loaderd");
         //println!("cargo:rustc-link-search-native={}/build/_deps/reactphysics3d-build/Debug", dst.display());
-    }
-    else if cfg!(unix) {
+    } else if cfg!(unix) {
         if cfg!(target_os = "macos") {
             panic!("Sorry, macos is not supported for stereokit.")
         }
         cargo_link!("stdc++");
         cargo_link!("X11");
+        cargo_link!("Xfixes");
         cargo_link!("GL");
         if cfg!(feature = "linux-egl") {
             cargo_link!("EGL");
