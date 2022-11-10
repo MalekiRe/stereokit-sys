@@ -41,35 +41,56 @@ macro_rules! cargo_link {
 	};
 }
 fn main() {
+	let target_os = env::var("CARGO_CFG_TARGET_OS").unwrap();
+	let target_family = env::var("CARGO_CFG_TARGET_FAMILY").unwrap();
+
 	// Build StereoKit, and tell rustc to link it.
 	let mut cmake_config = cmake::Config::new("StereoKit");
 	cmake_config.define("SK_BUILD_SHARED_LIBS", "OFF");
 	cmake_config.define("SK_BUILD_TESTS", "OFF");
 	cmake_config.define("SK_LINUX_EGL", cargo_cmake_feat!("linux-egl"));
 	cmake_config.define("SK_PHYSICS", "OFF"); // cannot get this to work on windows.
+	if target_os == "android" {
+		cmake_config.define("CMAKE_ANDROID_API", "25");
+	}
+
 	let dst = cmake_config.build();
+
 
 	println!("cargo:rustc-link-search=native={}/lib", dst.display());
 	cargo_link!("static=StereoKitC");
-	if cfg!(windows) {
-		cargo_link!("static=openxr_loaderd");
-	//println!("cargo:rustc-link-search-native={}/build/_deps/reactphysics3d-build/Debug", dst.display());
-	} else if cfg!(unix) {
-		if cfg!(target_os = "macos") {
-			panic!("Sorry, macos is not supported for stereokit.")
+	match target_family.as_str() {
+		"windows" => {
+			cargo_link!("static=openxr_loaderd");
 		}
-		cargo_link!("stdc++");
-		cargo_link!("X11");
-		cargo_link!("Xfixes");
-		cargo_link!("GL");
-		if cfg!(feature = "linux-egl") {
-			cargo_link!("EGL");
-		} else {
-			cargo_link!("GLEW");
-			cargo_link!("GLX");
+		"wasm" => {
+			unimplemented!("sorry wasm isn't implemented yet");
 		}
-		cargo_link!("openxr_loader");
-		cargo_link!("fontconfig");
+		"unix" => {
+			if target_os == "macos" {
+				panic!("Sorry, macos is not supported for stereokit.");
+			}
+			cargo_link!("stdc++");
+			cargo_link!("openxr_loader");
+			if target_os == "android" {
+				cargo_link!("android");
+				cargo_link!("EGL");
+			} else {
+				cargo_link!("X11");
+				cargo_link!("Xfixes");
+				cargo_link!("GL");
+				if cfg!(feature = "linux-egl") {
+					cargo_link!("EGL");
+				} else {
+					cargo_link!("GLEW");
+					cargo_link!("GLX");
+				}
+				cargo_link!("fontconfig");
+			}
+		}
+		_ => {
+			panic!("target family is unknown");
+		}
 	}
 
 	// Tell cargo to invalidate the built crate whenever the wrapper changes
