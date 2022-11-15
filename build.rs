@@ -62,6 +62,9 @@ fn main() {
 	match target_family.as_str() {
 		"windows" => {
 			cargo_link!("static=openxr_loaderd");
+			cargo_link!("windowsapp"); 
+			cargo_link!("user32"); 
+			cargo_link!("comdlg32");
 		}
 		"wasm" => {
 			unimplemented!("sorry wasm isn't implemented yet");
