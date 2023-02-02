@@ -7,7 +7,7 @@ license = "MIT"
 links = "StereoKitC"
 name = "stereokit-sys"
 repository = "https://github.com/MalekiRe/stereokit-sys"
-version = "2.2.0"
+version = "2.3.0"
 
 include = [
   "Cargo.toml",
@@ -42,6 +42,6 @@ features = ["std"]
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 [build-dependencies]
-bindgen = "0.60.1"
-cmake = "0.1.48"
+bindgen = "0.63.0"
+cmake = "0.1.49"
 
