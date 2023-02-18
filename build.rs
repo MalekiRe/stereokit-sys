@@ -84,6 +84,7 @@ fn main() {
 				cargo_link!("GL");
 				if cfg!(feature = "linux-egl") {
 					cargo_link!("EGL");
+					cargo_link!("gbm");
 				} else {
 					cargo_link!("GLEW");
 					cargo_link!("GLX");
