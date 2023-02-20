@@ -26,6 +26,7 @@ readme = "README.md"
 [features]
 default = []
 linux-egl = []
+physics = []
 
 [dependencies]
 mint = "0.5.9"

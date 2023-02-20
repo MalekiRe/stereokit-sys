@@ -49,7 +49,7 @@ fn main() {
 	cmake_config.define("SK_BUILD_SHARED_LIBS", "OFF");
 	cmake_config.define("SK_BUILD_TESTS", "OFF");
 	cmake_config.define("SK_LINUX_EGL", cargo_cmake_feat!("linux-egl"));
-	cmake_config.define("SK_PHYSICS", "OFF"); // cannot get this to work on windows.
+	cmake_config.define("SK_PHYSICS", cargo_cmake_feat!("physics")); // cannot get this to work on windows.
 	if target_os == "android" {
 		cmake_config.define("CMAKE_ANDROID_API", "25");
 	}
@@ -65,6 +65,11 @@ fn main() {
 			cargo_link!("windowsapp"); 
 			cargo_link!("user32"); 
 			cargo_link!("comdlg32");
+			println!("cargo:rustc-link-search=native={}", dst.display());
+			if cfg!(feature = "physics") {
+				println!("cargo:rustc-link-lib=static=build/_deps/reactphysics3d-build/Debug/reactphysics3d");
+			}
+			//cargo_link!("static=reactphysics3d");
 		}
 		"wasm" => {
 			unimplemented!("sorry wasm isn't implemented yet");
