@@ -7,7 +7,7 @@ license = "MIT"
 links = "StereoKitC"
 name = "stereokit-sys"
 repository = "https://github.com/MalekiRe/stereokit-sys"
-version = "2.4.0"
+version = "2.4.1"
 
 include = [
   "Cargo.toml",
@@ -16,9 +16,9 @@ include = [
   "StereoKit/cmake",
   "StereoKit/StereoKitC",
   "StereoKit/CMakeLists.txt",
-  "StereoKit/Tools/include",
-  "StereoKit/Tools/skshaderc",
-  "StereoKit/Tools/skshaderc.exe",
+  "StereoKit/tools/include",
+  "StereoKit/tools/skshaderc",
+  "StereoKit/tools/skshaderc.exe",
   "README.md",
 ]
 readme = "README.md"
@@ -41,8 +41,7 @@ default-features = false
 optional = true
 features = ["std"]
 
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 [build-dependencies]
-bindgen = "0.63.0"
+bindgen = "0.64.0"
 cmake = "0.1.49"
 
