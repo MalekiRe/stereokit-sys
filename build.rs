@@ -61,7 +61,11 @@ fn main() {
 	cargo_link!("static=StereoKitC");
 	match target_family.as_str() {
 		"windows" => {
-			cargo_link!("static=openxr_loaderd");
+			if cfg!(debug_assertions) {
+				cargo_link!("static=openxr_loaderd");
+			} else {
+				cargo_link!("static=openxr_loader");
+			}
 			cargo_link!("windowsapp"); 
 			cargo_link!("user32"); 
 			cargo_link!("comdlg32");
