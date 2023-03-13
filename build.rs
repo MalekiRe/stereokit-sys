@@ -56,8 +56,8 @@ fn main() {
 
 	let dst = cmake_config.build();
 
-
 	println!("cargo:rustc-link-search=native={}/lib", dst.display());
+	println!("cargo:rustc-link-search=native={}/lib64", dst.display());
 	cargo_link!("static=StereoKitC");
 	match target_family.as_str() {
 		"windows" => {
@@ -66,8 +66,8 @@ fn main() {
 			} else {
 				cargo_link!("static=openxr_loader");
 			}
-			cargo_link!("windowsapp"); 
-			cargo_link!("user32"); 
+			cargo_link!("windowsapp");
+			cargo_link!("user32");
 			cargo_link!("comdlg32");
 			println!("cargo:rustc-link-search=native={}", dst.display());
 			if cfg!(feature = "physics") {
