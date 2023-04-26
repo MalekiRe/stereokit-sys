@@ -52,6 +52,7 @@ fn main() {
 	cmake_config.define("SK_PHYSICS", cargo_cmake_feat!("physics")); // cannot get this to work on windows.
 	if target_os == "android" {
 		cmake_config.define("CMAKE_ANDROID_API", "25");
+		//cmake_config.define("ANDROID", "TRUE");
 	}
 
 	let dst = cmake_config.build();

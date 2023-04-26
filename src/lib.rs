@@ -2,11 +2,30 @@
 #![allow(non_camel_case_types)]
 #![allow(non_snake_case)]
 
-use mint::{ColumnMatrix4, RowMatrix4};
+
 include!(concat!(env!("OUT_DIR"), "/bindings.rs"));
 
-impl From<mint::Vector3<f32>> for vec3 {
-	fn from(val: mint::Vector3<f32>) -> Self {
+unsafe impl Sync for _material_t {}
+unsafe impl Send for _material_t {}
+unsafe impl Sync for _model_t {}
+unsafe impl Send for _model_t {}
+unsafe impl Sync for _tex_t {}
+unsafe impl Send for _tex_t {}
+unsafe impl Sync for _sound_t {}
+unsafe impl Send for _sound_t {}
+unsafe impl Sync for _material_buffer_t {}
+unsafe impl Send for _material_buffer_t {}
+unsafe impl Sync for _sprite_t {}
+unsafe impl Send for _sprite_t {}
+unsafe impl Sync for _font_t {}
+unsafe impl Send for _font_t {}
+unsafe impl Sync for _gradient_t {}
+unsafe impl Send for _gradient_t {}
+unsafe impl Sync for _shader_t {}
+unsafe impl Send for _shader_t {}
+
+impl From<glam::Vec3> for vec3 {
+	fn from(val: glam::Vec3) -> Self {
 		Self {
 			x: val.x,
 			y: val.y,
@@ -14,15 +33,29 @@ impl From<mint::Vector3<f32>> for vec3 {
 		}
 	}
 }
-
-impl From<mint::Vector2<f32>> for vec2 {
-	fn from(val: mint::Vector2<f32>) -> Self {
-		Self { x: val.x, y: val.y }
+impl Into<glam::Vec3> for vec3 {
+	fn into(self) -> glam::Vec3 {
+		match self {
+			vec3 { x, y, z } => glam::Vec3{ x, y, z}
+		}
 	}
 }
 
-impl From<mint::Vector4<f32>> for vec4 {
-	fn from(val: mint::Vector4<f32>) -> Self {
+impl From<glam::Vec2> for vec2 {
+	fn from(val: glam::Vec2) -> Self {
+		Self { x: val.x, y: val.y }
+	}
+}
+impl Into<glam::Vec2> for vec2 {
+	fn into(self) -> glam::Vec2 {
+		match self {
+			vec2 { x, y } => glam::Vec2{ x, y }
+		}
+	}
+}
+
+impl From<glam::Vec4> for vec4 {
+	fn from(val: glam::Vec4) -> Self {
 		Self {
 			x: val.x,
 			y: val.y,
@@ -31,38 +64,50 @@ impl From<mint::Vector4<f32>> for vec4 {
 		}
 	}
 }
-
-impl From<mint::ColumnMatrix4<f32>> for matrix {
-	fn from(m: mint::ColumnMatrix4<f32>) -> Self {
-		matrix {
-			row: [m.x.into(), m.y.into(), m.z.into(), m.w.into()],
+impl Into<glam::Vec4> for vec4 {
+	fn into(self) -> glam::Vec4 {
+		match self {
+			vec4 { x, y, z, w } => glam::Vec4::new(x, y, z, w)
 		}
 	}
 }
 
-impl Into<mint::ColumnMatrix4<f32>> for matrix {
-	fn into(self) -> mint::ColumnMatrix4<f32> {
+impl From<glam::Mat4> for matrix {
+	fn from(m: glam::Mat4) -> Self {
+		matrix {
+			row: [m.x_axis.into(), m.y_axis.into(), m.z_axis.into(), m.w_axis.into()],
+		}
+	}
+}
+
+impl Into<glam::Mat4> for matrix {
+	fn into(self) -> glam::Mat4 {
 		unsafe {
 			//This should not work, but it does work, do not ask me why, god only knows.
 			#[allow(unreachable_patterns)]
+			// match self {
+			// 	matrix { row: r } => ColumnMatrix4::from(RowMatrix4::from([
+			// 		r[0].x, r[0].y, r[0].z, r[0].w, r[1].x, r[1].y, r[1].z, r[1].w, r[2].x, r[2].y,
+			// 		r[2].z, r[2].w, r[3].x, r[3].y, r[3].z, r[3].w,
+			// 	])),
+			// 	matrix { m: ma } => ColumnMatrix4::from(ma),
+			// }
 			match self {
-				matrix { row: r } => ColumnMatrix4::from(RowMatrix4::from([
-					r[0].x, r[0].y, r[0].z, r[0].w, r[1].x, r[1].y, r[1].z, r[1].w, r[2].x, r[2].y,
-					r[2].z, r[2].w, r[3].x, r[3].y, r[3].z, r[3].w,
-				])),
-				matrix { m: ma } => ColumnMatrix4::from(ma),
+				matrix { row: r } => {
+					glam::Mat4::from_cols(r[0].into(), r[1].into(), r[2].into(), r[3].into()).transpose()
+				}
 			}
 		}
 	}
 }
 
-impl From<mint::Quaternion<f32>> for quat {
-	fn from(val: mint::Quaternion<f32>) -> Self {
+impl From<glam::Quat> for quat {
+	fn from(val: glam::Quat) -> Self {
 		quat {
-			x: val.v.x,
-			y: val.v.y,
-			z: val.v.z,
-			w: val.s,
+			x: val.x,
+			y: val.y,
+			z: val.z,
+			w: val.w,
 		}
 	}
 }
