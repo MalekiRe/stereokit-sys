@@ -2,7 +2,6 @@
 #![allow(non_camel_case_types)]
 #![allow(non_snake_case)]
 
-
 include!(concat!(env!("OUT_DIR"), "/bindings.rs"));
 
 unsafe impl Sync for _material_t {}
@@ -36,7 +35,7 @@ impl From<glam::Vec3> for vec3 {
 impl Into<glam::Vec3> for vec3 {
 	fn into(self) -> glam::Vec3 {
 		match self {
-			vec3 { x, y, z } => glam::Vec3{ x, y, z}
+			vec3 { x, y, z } => glam::Vec3 { x, y, z },
 		}
 	}
 }
@@ -49,7 +48,7 @@ impl From<glam::Vec2> for vec2 {
 impl Into<glam::Vec2> for vec2 {
 	fn into(self) -> glam::Vec2 {
 		match self {
-			vec2 { x, y } => glam::Vec2{ x, y }
+			vec2 { x, y } => glam::Vec2 { x, y },
 		}
 	}
 }
@@ -67,7 +66,7 @@ impl From<glam::Vec4> for vec4 {
 impl Into<glam::Vec4> for vec4 {
 	fn into(self) -> glam::Vec4 {
 		match self {
-			vec4 { x, y, z, w } => glam::Vec4::new(x, y, z, w)
+			vec4 { x, y, z, w } => glam::Vec4::new(x, y, z, w),
 		}
 	}
 }
@@ -75,7 +74,12 @@ impl Into<glam::Vec4> for vec4 {
 impl From<glam::Mat4> for matrix {
 	fn from(m: glam::Mat4) -> Self {
 		matrix {
-			row: [m.x_axis.into(), m.y_axis.into(), m.z_axis.into(), m.w_axis.into()],
+			row: [
+				m.x_axis.into(),
+				m.y_axis.into(),
+				m.z_axis.into(),
+				m.w_axis.into(),
+			],
 		}
 	}
 }
@@ -94,7 +98,7 @@ impl Into<glam::Mat4> for matrix {
 			// }
 			match self {
 				matrix { row: r } => {
-					glam::Mat4::from_cols(r[0].into(), r[1].into(), r[2].into(), r[3].into()).transpose()
+					glam::Mat4::from_cols(r[0].into(), r[1].into(), r[2].into(), r[3].into())
 				}
 			}
 		}
