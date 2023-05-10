@@ -7,7 +7,7 @@ license = "MIT"
 links = "StereoKitC"
 name = "stereokit-sys"
 repository = "https://github.com/MalekiRe/stereokit-sys"
-version = "2.5.4"
+version = "2.5.5"
 
 include = [
   "Cargo.toml",
