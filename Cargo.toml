@@ -31,6 +31,14 @@ physics = []
 [dependencies]
 glam = "0.23.0"
 
+[dependencies.bevy_reflect]
+version = "0.10.1"
+optional = true
+
+[dependencies.bevy_ecs]
+version = "0.10.1"
+optional = true
+
 [dependencies.prisma]
 version = "0.1.1"
 optional = true

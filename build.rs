@@ -127,6 +127,8 @@ fn main() {
 	let macros = Arc::new(RwLock::new(HashSet::new()));
 	let bindings = bindgen::Builder::default()
 		.header("src/static-wrapper.h")
+		.blocklist_type("color128")
+		.blocklist_type("color32")
 		.blocklist_type("FP_NAN")
 		.blocklist_type("FP_INFINITE")
 		.blocklist_type("FP_ZERO")
