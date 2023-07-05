@@ -31,6 +31,11 @@ physics = []
 [dependencies]
 glam = "0.23.0"
 
+[dependencies.serde]
+version = "1.0.164"
+optional = true
+features = ["derive"]
+
 [dependencies.bevy_reflect]
 version = "0.10.1"
 optional = true

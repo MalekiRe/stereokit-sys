@@ -9,6 +9,7 @@ include!(concat!(env!("OUT_DIR"), "/bindings.rs"));
 #[cfg_attr(feature = "bevy_ecs", derive(bevy_ecs::prelude::Component))]
 #[cfg_attr(feature = "bevy_reflect", derive(bevy_reflect::prelude::Reflect, bevy_reflect::prelude::FromReflect))]
 #[cfg_attr(feature = "bevy_reflect", reflect(Component))]
+#[cfg_attr(feature = "serde", derive(Serialize, Deserialize))]
 pub struct color128 {
 	pub r: f32,
 	pub g: f32,
@@ -17,12 +18,14 @@ pub struct color128 {
 }
 #[cfg(feature = "bevy_ecs")]
 use bevy_ecs::prelude::ReflectComponent;
+use serde::{Deserialize, Serialize};
 
 #[repr(C)]
 #[derive(Debug, Copy, Clone, Default)]
 #[cfg_attr(feature = "bevy_ecs", derive(bevy_ecs::prelude::Component))]
 #[cfg_attr(feature = "bevy_reflect", derive(bevy_reflect::prelude::Reflect, bevy_reflect::prelude::FromReflect))]
 #[cfg_attr(feature = "bevy_reflect", reflect(Component))]
+#[cfg_attr(feature = "serde", derive(Serialize, Deserialize))]
 pub struct color32 {
 	pub r: u8,
 	pub g: u8,
