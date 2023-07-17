@@ -31,9 +31,13 @@ physics = []
 [dependencies]
 glam = "0.23.0"
 
+[dependencies.openxr]
+version = "0.17.1"
+features = ["linked"]
+default-features = false
+
 [dependencies.serde]
 version = "1.0.164"
-optional = true
 features = ["derive"]
 
 [dependencies.bevy_reflect]
@@ -56,5 +60,8 @@ features = ["std"]
 
 [build-dependencies]
 bindgen = "0.64.0"
+cc = { version = "1.0.79", features = ["parallel"] }
 cmake = "0.1.49"
+serde = "1.0.164"
+walkdir = "2.3.3"
 

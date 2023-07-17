@@ -26,41 +26,16 @@ impl ParseCallbacks for MacroCallback {
 	}
 }
 
-macro_rules! cargo_cmake_feat {
-	($feature:literal) => {
-		if cfg!(feature = $feature) {
-			"ON"
-		} else {
-			"OFF"
-		}
-	};
-}
 macro_rules! cargo_link {
 	($feature:expr) => {
 		println!("cargo:rustc-link-lib={}", $feature);
 	};
 }
 fn main() {
-	let target_os = env::var("CARGO_CFG_TARGET_OS").unwrap();
-	let target_family = env::var("CARGO_CFG_TARGET_FAMILY").unwrap();
+	cc_compile();
+	// cmake_compile();
 
-	// Build StereoKit, and tell rustc to link it.
-	let mut cmake_config = cmake::Config::new("StereoKit");
-	cmake_config.define("SK_BUILD_SHARED_LIBS", "OFF");
-	cmake_config.define("SK_BUILD_TESTS", "OFF");
-	cmake_config.define("SK_LINUX_EGL", cargo_cmake_feat!("linux-egl"));
-	cmake_config.define("SK_PHYSICS", cargo_cmake_feat!("physics")); // cannot get this to work on windows.
-	if target_os == "android" {
-		cmake_config.define("CMAKE_ANDROID_API", "25");
-		//cmake_config.define("ANDROID", "TRUE");
-	}
-
-	let dst = cmake_config.build();
-
-	println!("cargo:rustc-link-search=native={}/lib", dst.display());
-	println!("cargo:rustc-link-search=native={}/lib64", dst.display());
-	cargo_link!("static=StereoKitC");
-	match target_family.as_str() {
+	match env::var("CARGO_CFG_TARGET_FAMILY").unwrap().as_str() {
 		"windows" => {
 			if cfg!(debug_assertions) {
 				cargo_link!("static=openxr_loaderd");
@@ -70,7 +45,7 @@ fn main() {
 			cargo_link!("windowsapp");
 			cargo_link!("user32");
 			cargo_link!("comdlg32");
-			println!("cargo:rustc-link-search=native={}", dst.display());
+			println!("cargo:rustc-link-search=native=StereoKitC");
 			if cfg!(feature = "physics") {
 				println!("cargo:rustc-link-lib=static=build/_deps/reactphysics3d-build/Debug/reactphysics3d");
 			}
@@ -80,6 +55,7 @@ fn main() {
 			unimplemented!("sorry wasm isn't implemented yet");
 		}
 		"unix" => {
+			let target_os = env::var("CARGO_CFG_TARGET_OS").unwrap();
 			if target_os == "macos" {
 				panic!("Sorry, macos is not supported for stereokit.");
 			}
@@ -123,6 +99,69 @@ fn main() {
 		println!("cargo:rustc-link-lib=dylib=c++");
 	}
 
+	gen_bindings();
+}
+fn cc_compile() {
+	let mut cc = cc::Build::new();
+	cc.warnings(false);
+	cc.extra_warnings(false);
+	cc.cpp(true);
+	cc.cpp_link_stdlib("stdc++");
+	cc.static_flag(true);
+	cc.static_crt(true);
+	cc.flag_if_supported("-fdiagnostics-color=always");
+	cc.flag_if_supported("-fcolor-diagnostics");
+	cc.include("/usr/include");
+	// cc.include("StereoKit/StereoKitC");
+	cc.include("StereoKit/StereoKitC/lib/include_no_win/");
+	cc.files(
+		walkdir::WalkDir::new("StereoKit/StereoKitC")
+			.into_iter()
+			.filter_map(|e| e.ok())
+			.map(|e| e.path().to_path_buf())
+			.filter(|path| {
+				let Some(ext) = path.extension().map(|ext| ext.to_str()).flatten() else {return false};
+				ext == "h" || ext == "hpp" || ext == "c" || ext == "cpp"
+			}),
+	);
+	if !cfg!(physics) {
+		cc.define("SK_PHYSICS_PASSTHROUGH", None);
+	}
+
+	cc.compile("StereoKitC");
+
+	println!("cargo:rustc-link-search=native=StereoKitC/lib");
+	println!("cargo:rustc-link-search=native=StereoKitC/lib64");
+	cargo_link!("static=StereoKitC");
+}
+
+macro_rules! cargo_cmake_feat {
+	($feature:literal) => {
+		if cfg!(feature = $feature) {
+			"ON"
+		} else {
+			"OFF"
+		}
+	};
+}
+fn cmake_compile() {
+	// Build StereoKit, and tell rustc to link it.
+	let mut cmake_config = cmake::Config::new("StereoKit");
+	cmake_config.define("SK_BUILD_SHARED_LIBS", "OFF");
+	cmake_config.define("SK_BUILD_TESTS", "ON");
+	cmake_config.define("SK_LINUX_EGL", cargo_cmake_feat!("linux-egl"));
+	cmake_config.define("SK_PHYSICS", cargo_cmake_feat!("physics")); // cannot get this to work on windows.
+																 // if target_os == "android" {
+																 // 	cmake_config.define("CMAKE_ANDROID_API", "25");
+																 // 	//cmake_config.define("ANDROID", "TRUE");
+																 // }
+	cmake_config.build();
+
+	println!("cargo:rustc-link-search=native=StereoKitC/lib");
+	println!("cargo:rustc-link-search=native=StereoKitC/lib64");
+	cargo_link!("static=StereoKitC");
+}
+fn gen_bindings() {
 	// Generate bindings to StereoKitC.
 	let macros = Arc::new(RwLock::new(HashSet::new()));
 	let bindings = bindgen::Builder::default()

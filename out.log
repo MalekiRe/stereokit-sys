@@ -1,0 +1,812 @@
+warning: function `cmake_compile` is never used
+   --> build.rs:147:4
+    |
+147 | fn cmake_compile() {
+    |    ^^^^^^^^^^^^^
+    |
+    = note: `#[warn(dead_code)]` on by default
+
+warning: `stereokit-sys` (build script) generated 1 warning
+warning: clang-15: [0;1;35mwarning: [0m[1mtreating 'c-header' input as 'c++-header' when in C++ mode, this behavior is deprecated [-Wdeprecated][0m
+warning: clang-15: [0;1;35mwarning: [0m[1mtreating 'c-header' input as 'c++-header' when in C++ mode, this behavior is deprecated [-Wdeprecated][0m
+warning: clang-15: [0;1;35mwarning: [0m[1mtreating 'c-header' input as 'c++-header' when in C++ mode, this behavior is deprecated [-Wdeprecated][0m
+warning: clang-15: [0;1;35mwarning: [0m[1mtreating 'c-header' input as 'c++-header' when in C++ mode, this behavior is deprecated [-Wdeprecated][0m
+warning: clang-15: [0;1;35mwarning: [0m[1mtreating 'c-header' input as 'c++-header' when in C++ mode, this behavior is deprecated [-Wdeprecated][0m
+warning: clang-15: [0;1;35mwarning: [0m[1mtreating 'c-header' input as 'c++-header' when in C++ mode, this behavior is deprecated [-Wdeprecated][0m
+warning: clang-15: [0;1;35mwarning: [0m[1mtreating 'c-header' input as 'c++-header' when in C++ mode, this behavior is deprecated [-Wdeprecated][0m
+warning: clang-15: [0;1;35mwarning: [0m[1mtreating 'c-header' input as 'c++-header' when in C++ mode, this behavior is deprecated [-Wdeprecated][0m
+warning: clang-15: [0;1;35mwarning: [0m[1mtreating 'c-header' input as 'c++-header' when in C++ mode, this behavior is deprecated [-Wdeprecated][0m
+warning: clang-15: [0;1;35mwarning: [0m[1mtreating 'c-header' input as 'c++-header' when in C++ mode, this behavior is deprecated [-Wdeprecated][0m
+warning: clang-15: [0;1;35mwarning: [0m[1mtreating 'c-header' input as 'c++-header' when in C++ mode, this behavior is deprecated [-Wdeprecated][0m
+warning: clang-15: [0;1;35mwarning: [0m[1mtreating 'c-header' input as 'c++-header' when in C++ mode, this behavior is deprecated [-Wdeprecated][0m
+warning: clang-15: [0;1;35mwarning: [0m[1mtreating 'c-header' input as 'c++-header' when in C++ mode, this behavior is deprecated [-Wdeprecated][0m
+warning: clang-15: [0;1;35mwarning: [0m[1mtreating 'c-header' input as 'c++-header' when in C++ mode, this behavior is deprecated [-Wdeprecated][0m
+warning: clang-15: [0;1;35mwarning: [0m[1mtreating 'c-header' input as 'c++-header' when in C++ mode, this behavior is deprecated [-Wdeprecated][0m
+warning: clang-15: [0;1;35mwarning: [0m[1mtreating 'c-header' input as 'c++-header' when in C++ mode, this behavior is deprecated [-Wdeprecated][0m
+warning: clang-15: [0;1;35mwarning: [0m[1mtreating 'c-header' input as 'c++-header' when in C++ mode, this behavior is deprecated [-Wdeprecated][0m
+warning: clang-15: [0;1;35mwarning: [0m[1mtreating 'c-header' input as 'c++-header' when in C++ mode, this behavior is deprecated [-Wdeprecated][0m
+warning: clang-15: [0;1;35mwarning: [0m[1mtreating 'c-header' input as 'c++-header' when in C++ mode, this behavior is deprecated [-Wdeprecated][0m
+warning: clang-15: [0;1;35mwarning: [0m[1mtreating 'c-header' input as 'c++-header' when in C++ mode, this behavior is deprecated [-Wdeprecated][0m
+warning: clang-15: [0;1;35mwarning: [0m[1mtreating 'c-header' input as 'c++-header' when in C++ mode, this behavior is deprecated [-Wdeprecated][0m
+warning: clang-15: [0;1;35mwarning: [0m[1mtreating 'c-header' input as 'c++-header' when in C++ mode, this behavior is deprecated [-Wdeprecated][0m
+warning: clang-15: [0;1;35mwarning: [0m[1mtreating 'c-header' input as 'c++-header' when in C++ mode, this behavior is deprecated [-Wdeprecated][0m
+warning: clang-15: [0;1;35mwarning: [0m[1mtreating 'c-header' input as 'c++-header' when in C++ mode, this behavior is deprecated [-Wdeprecated][0m
+warning: clang-15: [0;1;35mwarning: [0m[1mtreating 'c-header' input as 'c++-header' when in C++ mode, this behavior is deprecated [-Wdeprecated][0m
+warning: clang-15: [0;1;35mwarning: [0m[1mtreating 'c-header' input as 'c++-header' when in C++ mode, this behavior is deprecated [-Wdeprecated][0m
+warning: clang-15: [0;1;35mwarning: [0m[1mtreating 'c-header' input as 'c++-header' when in C++ mode, this behavior is deprecated [-Wdeprecated][0m
+warning: clang-15: [0;1;35mwarning: [0m[1mtreating 'c-header' input as 'c++-header' when in C++ mode, this behavior is deprecated [-Wdeprecated][0m
+warning: clang-15: [0;1;35mwarning: [0m[1mtreating 'c-header' input as 'c++-header' when in C++ mode, this behavior is deprecated [-Wdeprecated][0m
+warning: clang-15: [0;1;35mwarning: [0m[1mtreating 'c-header' input as 'c++-header' when in C++ mode, this behavior is deprecated [-Wdeprecated][0m
+warning: clang-15: [0;1;35mwarning: [0m[1mtreating 'c-header' input as 'c++-header' when in C++ mode, this behavior is deprecated [-Wdeprecated][0m
+warning: clang-15: [0;1;35mwarning: [0m[1mtreating 'c-header' input as 'c++-header' when in C++ mode, this behavior is deprecated [-Wdeprecated][0m
+warning: clang-15: [0;1;35mwarning: [0m[1mtreating 'c-header' input as 'c++-header' when in C++ mode, this behavior is deprecated [-Wdeprecated][0m
+warning: clang-15: [0;1;35mwarning: [0m[1mtreating 'c-header' input as 'c++-header' when in C++ mode, this behavior is deprecated [-Wdeprecated][0m
+warning: clang-15: [0;1;35mwarning: [0m[1mtreating 'c-header' input as 'c++-header' when in C++ mode, this behavior is deprecated [-Wdeprecated][0m
+warning: clang-15: [0;1;35mwarning: [0m[1mtreating 'c-header' input as 'c++-header' when in C++ mode, this behavior is deprecated [-Wdeprecated][0m
+warning: clang-15: [0;1;35mwarning: [0m[1mtreating 'c-header' input as 'c++-header' when in C++ mode, this behavior is deprecated [-Wdeprecated][0m
+warning: clang-15: [0;1;35mwarning: [0m[1mtreating 'c-header' input as 'c++-header' when in C++ mode, this behavior is deprecated [-Wdeprecated][0m
+warning: clang-15: [0;1;35mwarning: [0m[1mtreating 'c-header' input as 'c++-header' when in C++ mode, this behavior is deprecated [-Wdeprecated][0m
+warning: clang-15: [0;1;35mwarning: [0m[1mtreating 'c-header' input as 'c++-header' when in C++ mode, this behavior is deprecated [-Wdeprecated][0m
+warning: clang-15: [0;1;35mwarning: [0m[1mtreating 'c-header' input as 'c++-header' when in C++ mode, this behavior is deprecated [-Wdeprecated][0m
+warning: clang-15: [0;1;35mwarning: [0m[1mtreating 'c-header' input as 'c++-header' when in C++ mode, this behavior is deprecated [-Wdeprecated][0m
+warning: clang-15: [0;1;35mwarning: [0m[1mtreating 'c-header' input as 'c++-header' when in C++ mode, this behavior is deprecated [-Wdeprecated][0m
+warning: clang-15: [0;1;35mwarning: [0m[1mtreating 'c-header' input as 'c++-header' when in C++ mode, this behavior is deprecated [-Wdeprecated][0m
+warning: clang-15: [0;1;35mwarning: [0m[1mtreating 'c-header' input as 'c++-header' when in C++ mode, this behavior is deprecated [-Wdeprecated][0m
+warning: clang-15: [0;1;35mwarning: [0m[1mtreating 'c-header' input as 'c++-header' when in C++ mode, this behavior is deprecated [-Wdeprecated][0m
+warning: clang-15: [0;1;35mwarning: [0m[1mtreating 'c-header' input as 'c++-header' when in C++ mode, this behavior is deprecated [-Wdeprecated][0m
+warning: clang-15: [0;1;35mwarning: [0m[1mtreating 'c-header' input as 'c++-header' when in C++ mode, this behavior is deprecated [-Wdeprecated][0m
+warning: clang-15: [0;1;35mwarning: [0m[1mtreating 'c-header' input as 'c++-header' when in C++ mode, this behavior is deprecated [-Wdeprecated][0m
+warning: clang-15: [0;1;35mwarning: [0m[1mtreating 'c-header' input as 'c++-header' when in C++ mode, this behavior is deprecated [-Wdeprecated][0m
+warning: clang-15: [0;1;35mwarning: [0m[1mtreating 'c-header' input as 'c++-header' when in C++ mode, this behavior is deprecated [-Wdeprecated][0m
+warning: clang-15: [0;1;35mwarning: [0m[1mtreating 'c-header' input as 'c++-header' when in C++ mode, this behavior is deprecated [-Wdeprecated][0m
+warning: clang-15: [0;1;35mwarning: [0m[1mtreating 'c-header' input as 'c++-header' when in C++ mode, this behavior is deprecated [-Wdeprecated][0m
+warning: clang-15: [0;1;35mwarning: [0m[1mtreating 'c-header' input as 'c++-header' when in C++ mode, this behavior is deprecated [-Wdeprecated][0m
+warning: clang-15: [0;1;35mwarning: [0m[1mtreating 'c-header' input as 'c++-header' when in C++ mode, this behavior is deprecated [-Wdeprecated][0m
+warning: cargo:warning=clang-15: [0;1;35mwarning: [0m[1mtreating 'c-header' input as 'c++-header' when in C++ mode, this behavior is deprecated [-Wdeprecated][0mclang-15: [0;1;35mwarning: [0m[1mtreating 'c-header' input as 'c++-header' when in C++ mode, this behavior is deprecated [-Wdeprecated][0m
+warning: clang-15: [0;1;35mwarning: [0m[1mtreating 'c-header' input as 'c++-header' when in C++ mode, this behavior is deprecated [-Wdeprecated][0m
+warning: [1mStereoKit/StereoKitC/asset_types/animation.cpp:165:11: [0m[0;1;35mwarning: [0m[1menumeration value 'anim_element_weights' not handled in switch [-Wswitch][0m
+warning:                 switch (anim->curves[i].applies_to) {
+warning: [0;1;32m                        ^~~~~~~~~~~~~~~~~~~~~~~~~~
+warning: [0m1 warning generated.
+warning: clang-15: [0;1;35mwarning: [0m[1mtreating 'c-header' input as 'c++-header' when in C++ mode, this behavior is deprecated [-Wdeprecated][0m
+warning: clang-15: [0;1;35mwarning: [0m[1mtreating 'c-header' input as 'c++-header' when in C++ mode, this behavior is deprecated [-Wdeprecated][0m
+warning: clang-15: [0;1;35mwarning: [0m[1mtreating 'c-header' input as 'c++-header' when in C++ mode, this behavior is deprecated [-Wdeprecated][0m
+warning: clang-15: [0;1;35mwarning: [0m[1mtreating 'c-header' input as 'c++-header' when in C++ mode, this behavior is deprecated [-Wdeprecated][0m
+warning: clang-15: [0;1;35mwarning: [0m[1mtreating 'c-header' input as 'c++-header' when in C++ mode, this behavior is deprecated [-Wdeprecated][0m
+warning: clang-15: [0;1;35mwarning: [0m[1mtreating 'c-header' input as 'c++-header' when in C++ mode, this behavior is deprecated [-Wdeprecated][0m
+warning: clang-15: [0;1;35mwarning: [0m[1mtreating 'c-header' input as 'c++-header' when in C++ mode, this behavior is deprecated [-Wdeprecated][0m
+warning: clang-15: [0;1;35mwarning: [0m[1mtreating 'c-header' input as 'c++-header' when in C++ mode, this behavior is deprecated [-Wdeprecated][0m
+warning: clang-15: [0;1;35mwarning: [0m[1mtreating 'c-header' input as 'c++-header' when in C++ mode, this behavior is deprecated [-Wdeprecated][0m
+warning: clang-15: [0;1;35mwarning: [0m[1mtreating 'c-header' input as 'c++-header' when in C++ mode, this behavior is deprecated [-Wdeprecated][0m
+warning: clang-15: [0;1;35mwarning: [0m[1mtreating 'c-header' input as 'c++-header' when in C++ mode, this behavior is deprecated [-Wdeprecated][0m
+warning: clang-15: [0;1;35mwarning: [0m[1mtreating 'c-header' input as 'c++-header' when in C++ mode, this behavior is deprecated [-Wdeprecated][0m
+warning: clang-15: [0;1;35mwarning: [0m[1mtreating 'c-header' input as 'c++-header' when in C++ mode, this behavior is deprecated [-Wdeprecated][0m
+warning: clang-15: [0;1;35mwarning: [0m[1mtreating 'c-header' input as 'c++-header' when in C++ mode, this behavior is deprecated [-Wdeprecated][0m
+warning: clang-15: [0;1;35mwarning: [0m[1mtreating 'c-header' input as 'c++-header' when in C++ mode, this behavior is deprecated [-Wdeprecated][0m
+warning: clang-15: [0;1;35mwarning: [0m[1mtreating 'c-header' input as 'c++-header' when in C++ mode, this behavior is deprecated [-Wdeprecated][0m
+warning: clang-15: [0;1;35mwarning: [0m[1mtreating 'c-header' input as 'c++-header' when in C++ mode, this behavior is deprecated [-Wdeprecated][0m
+warning: clang-15: [0;1;35mwarning: [0m[1mtreating 'c-header' input as 'c++-header' when in C++ mode, this behavior is deprecated [-Wdeprecated][0m
+warning: clang-15: [0;1;35mwarning: [0m[1mtreating 'c-header' input as 'c++-header' when in C++ mode, this behavior is deprecated [-Wdeprecated][0m
+warning: clang-15: [0;1;35mwarning: [0m[1mtreating 'c-header' input as 'c++-header' when in C++ mode, this behavior is deprecated [-Wdeprecated][0m
+warning: clang-15: [0;1;35mwarning: [0m[1mtreating 'c-header' input as 'c++-header' when in C++ mode, this behavior is deprecated [-Wdeprecated][0m
+warning: clang-15: [0;1;35mwarning: [0m[1mtreating 'c-header' input as 'c++-header' when in C++ mode, this behavior is deprecated [-Wdeprecated][0m
+warning: clang-15: [0;1;35mwarning: [0m[1mtreating 'c-header' input as 'c++-header' when in C++ mode, this behavior is deprecated [-Wdeprecated][0m
+warning: clang-15: [0;1;35mwarning: [0m[1mtreating 'c-header' input as 'c++-header' when in C++ mode, this behavior is deprecated [-Wdeprecated][0m
+warning: clang-15: [0;1;35mwarning: [0m[1mtreating 'c-header' input as 'c++-header' when in C++ mode, this behavior is deprecated [-Wdeprecated][0m
+warning: clang-15: [0;1;35mwarning: [0m[1mtreating 'c-header' input as 'c++-header' when in C++ mode, this behavior is deprecated [-Wdeprecated][0m
+warning: clang-15: [0;1;35mwarning: [0m[1mtreating 'c-header' input as 'c++-header' when in C++ mode, this behavior is deprecated [-Wdeprecated][0m
+warning: clang-15: [0;1;35mwarning: [0m[1mtreating 'c-header' input as 'c++-header' when in C++ mode, this behavior is deprecated [-Wdeprecated][0m
+warning: clang-15: [0;1;35mwarning: [0m[1mtreating 'c-header' input as 'c++-header' when in C++ mode, this behavior is deprecated [-Wdeprecated][0m
+warning: clang-15: [0;1;35mwarning: [0m[1mtreating 'c-header' input as 'c++-header' when in C++ mode, this behavior is deprecated [-Wdeprecated][0m
+warning: clang-15: [0;1;35mwarning: [0m[1mtreating 'c-header' input as 'c++-header' when in C++ mode, this behavior is deprecated [-Wdeprecated][0m
+warning: clang-15: [0;1;35mwarning: [0m[1mtreating 'c-header' input as 'c++-header' when in C++ mode, this behavior is deprecated [-Wdeprecated][0m
+warning: clang-15: [0;1;35mwarning: [0m[1mtreating 'c-header' input as 'c++-header' when in C++ mode, this behavior is deprecated [-Wdeprecated][0m
+warning: clang-15: [0;1;35mwarning: [0m[1mtreating 'c-header' input as 'c++-header' when in C++ mode, this behavior is deprecated [-Wdeprecated][0m
+warning: [1mStereoKit/StereoKitC/xr_backends/openxr_view.cpp:231:11: [0m[0;1;35mwarning: [0m[1menumeration values 'display_blend_none' and 'display_blend_any_transparent' not handled in switch [-Wswitch][0m
+warning:                 switch (blend) {
+warning: [0;1;32m                        ^~~~~
+warning: [0m[1mStereoKit/StereoKitC/xr_backends/openxr_view.cpp:623:11: [0m[0;1;35mwarning: [0m[1menumeration value 'XR_ENVIRONMENT_BLEND_MODE_MAX_ENUM' not handled in switch [-Wswitch][0m
+warning:                 switch (blend_modes[i]) {
+warning: [0;1;32m                        ^~~~~~~~~~~~~~
+warning: [0m2 warnings generated.
+warning: unused imports: `Deserialize`, `Serialize`
+  --> src/lib.rs:24:13
+   |
+24 | use serde::{Deserialize, Serialize};
+   |             ^^^^^^^^^^^  ^^^^^^^^^
+   |
+   = note: `#[warn(unused_imports)]` on by default
+
+warning: `stereokit-sys` (lib) generated 1 warning (run `cargo fix --lib -p stereokit-sys` to apply 1 suggestion)
+   Compiling stereokit-sys v2.5.6 (/home/nova/xr/stereokit-sys)
+error: linking with `cc` failed: exit status: 1
+  |
+  = note: LC_ALL="C" PATH="/home/nova/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/bin:/home/nova/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/bin/self-contained:/home/nova/.cargo/bin:/home/nova/.dotnet/tools:/usr/local/sbin:/usr/local/bin:/usr/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl" VSLANG="1033" "cc" "-m64" "/home/nova/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-musl/lib/self-contained/rcrt1.o" "/home/nova/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-musl/lib/self-contained/crti.o" "/home/nova/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-musl/lib/self-contained/crtbeginS.o" "/tmp/rustcjzI6HS/symbols.o" "/home/nova/xr/stereokit-sys/target/x86_64-unknown-linux-musl/debug/examples/cube-9a8842046b6fd8d8.1oa3498kawzikudx.rcgu.o" "/home/nova/xr/stereokit-sys/target/x86_64-unknown-linux-musl/debug/examples/cube-9a8842046b6fd8d8.21m6cwu0dyebig37.rcgu.o" "/home/nova/xr/stereokit-sys/target/x86_64-unknown-linux-musl/debug/examples/cube-9a8842046b6fd8d8.28a7q5qc4j0c2dy3.rcgu.o" "/home/nova/xr/stereokit-sys/target/x86_64-unknown-linux-musl/debug/examples/cube-9a8842046b6fd8d8.31nyj55pfyj50z4g.rcgu.o" "/home/nova/xr/stereokit-sys/target/x86_64-unknown-linux-musl/debug/examples/cube-9a8842046b6fd8d8.3ysdh2rz68cxvyjy.rcgu.o" "/home/nova/xr/stereokit-sys/target/x86_64-unknown-linux-musl/debug/examples/cube-9a8842046b6fd8d8.4ijgy1xli54xfb5r.rcgu.o" "/home/nova/xr/stereokit-sys/target/x86_64-unknown-linux-musl/debug/examples/cube-9a8842046b6fd8d8.45dtgshjkubv2ovf.rcgu.o" "-Wl,--as-needed" "-L" "/home/nova/xr/stereokit-sys/target/x86_64-unknown-linux-musl/debug/deps" "-L" "/home/nova/xr/stereokit-sys/target/debug/deps" "-L" "/home/nova/xr/stereokit-sys/target/x86_64-unknown-linux-musl/debug/build/stereokit-sys-ef94dfd386f2204c/out" "-L" "StereoKitC/lib" "-L" "StereoKitC/lib64" "-L" "/home/nova/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-musl/lib" "-Wl,-Bstatic" "/home/nova/xr/stereokit-sys/target/x86_64-unknown-linux-musl/debug/deps/libstereokit_sys-c91d31f25ec4226a.rlib" "/home/nova/xr/stereokit-sys/target/x86_64-unknown-linux-musl/debug/deps/libglam-04650c714c1085f5.rlib" "/home/nova/xr/stereokit-sys/target/x86_64-unknown-linux-musl/debug/deps/libserde-9757f3db67e217df.rlib" "/home/nova/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-musl/lib/libstd-fe6ad1580bc261a5.rlib" "/home/nova/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-musl/lib/libpanic_unwind-8d6820a354e3fbd4.rlib" "/home/nova/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-musl/lib/libobject-ccc90f8200adbdda.rlib" "/home/nova/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-musl/lib/libmemchr-029d1a34b687796d.rlib" "/home/nova/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-musl/lib/libaddr2line-e04b4c1c653c9346.rlib" "/home/nova/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-musl/lib/libgimli-0358be576badaa3d.rlib" "/home/nova/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-musl/lib/librustc_demangle-31062c1bacc4f9c8.rlib" "/home/nova/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-musl/lib/libstd_detect-d3851b9759dede11.rlib" "/home/nova/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-musl/lib/libhashbrown-37a375deec29e66d.rlib" "/home/nova/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-musl/lib/librustc_std_workspace_alloc-57e54b58c54e074f.rlib" "/home/nova/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-musl/lib/libminiz_oxide-752f840be22b0642.rlib" "/home/nova/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-musl/lib/libadler-dfd1aa4529d5958a.rlib" "/home/nova/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-musl/lib/libunwind-f645131d58d42a2f.rlib" "-lunwind" "/home/nova/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-musl/lib/libcfg_if-8dbca51933da73c2.rlib" "/home/nova/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-musl/lib/liblibc-4c8ee00389b4b29f.rlib" "-lc" "/home/nova/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-musl/lib/liballoc-5b224028108abbb1.rlib" "/home/nova/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-musl/lib/librustc_std_workspace_core-e3d5b841364df13e.rlib" "/home/nova/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-musl/lib/libcore-04f2677a847b54b9.rlib" "/home/nova/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-musl/lib/libcompiler_builtins-85a36b950cd4a1c6.rlib" "-Wl,-Bdynamic" "-lstdc++" "-lopenxr_loader" "-lX11" "-lXfixes" "-lGL" "-lGLEW" "-lGLX" "-lfontconfig" "-Wl,--eh-frame-hdr" "-Wl,-z,noexecstack" "-nostartfiles" "-L" "/home/nova/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-musl/lib" "-L" "/home/nova/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-musl/lib/self-contained" "-o" "/home/nova/xr/stereokit-sys/target/x86_64-unknown-linux-musl/debug/examples/cube-9a8842046b6fd8d8" "-Wl,--gc-sections" "-static-pie" "-Wl,-z,relro,-z,now" "-nodefaultlibs" "/home/nova/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-musl/lib/self-contained/crtendS.o" "/home/nova/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-musl/lib/self-contained/crtn.o"
+  = note: /usr/bin/ld: /home/nova/xr/stereokit-sys/target/x86_64-unknown-linux-musl/debug/deps/libstereokit_sys-c91d31f25ec4226a.rlib(input_hand.o): in function `__cxx_global_var_init':
+          /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/hands/input_hand.cpp:67: undefined reference to `sk::hand_oxrc_available()'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/hands/input_hand.cpp:67: undefined reference to `sk::hand_oxrc_init()'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/hands/input_hand.cpp:67: undefined reference to `sk::hand_oxrc_shutdown()'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/hands/input_hand.cpp:67: undefined reference to `sk::hand_oxrc_update_frame()'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/hands/input_hand.cpp:67: undefined reference to `sk::hand_oxrc_update_poses(bool)'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/target/x86_64-unknown-linux-musl/debug/deps/libstereokit_sys-c91d31f25ec4226a.rlib(input_hand.o): in function `sk::input_hand_init()':
+          /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/hands/input_hand.cpp:170: undefined reference to `material_copy_id'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/hands/input_hand.cpp:171: undefined reference to `material_set_id'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/hands/input_hand.cpp:172: undefined reference to `material_set_transparency'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/hands/input_hand.cpp:191: undefined reference to `material_set_texture'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/hands/input_hand.cpp:192: undefined reference to `material_set_queue_offset'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/hands/input_hand.cpp:199: undefined reference to `material_addref'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/hands/input_hand.cpp:229: undefined reference to `material_release'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/target/x86_64-unknown-linux-musl/debug/deps/libstereokit_sys-c91d31f25ec4226a.rlib(input_hand.o): in function `sk::input_hand_update_mesh(sk::handed_)':
+          /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/hands/input_hand.cpp:582: undefined reference to `mesh_create'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/hands/input_hand.cpp:583: undefined reference to `mesh_set_keep_data'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/hands/input_hand.cpp:584: undefined reference to `mesh_set_id'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/hands/input_hand.cpp:587: undefined reference to `mesh_set_inds'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/hands/input_hand.cpp:632: undefined reference to `mesh_set_verts'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/target/x86_64-unknown-linux-musl/debug/deps/libstereokit_sys-c91d31f25ec4226a.rlib(input_hand.o): in function `sk::input_hand_shutdown()':
+          /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/hands/input_hand.cpp:249: undefined reference to `material_release'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/hands/input_hand.cpp:250: undefined reference to `mesh_release'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/target/x86_64-unknown-linux-musl/debug/deps/libstereokit_sys-c91d31f25ec4226a.rlib(line_drawer.o): in function `sk::line_drawer_init()':
+          /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/systems/line_drawer.cpp:22: undefined reference to `shader_find'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/systems/line_drawer.cpp:23: undefined reference to `material_create'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/systems/line_drawer.cpp:24: undefined reference to `shader_release'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/systems/line_drawer.cpp:26: undefined reference to `material_set_id'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/systems/line_drawer.cpp:27: undefined reference to `material_set_transparency'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/systems/line_drawer.cpp:28: undefined reference to `material_set_cull'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/target/x86_64-unknown-linux-musl/debug/deps/libstereokit_sys-c91d31f25ec4226a.rlib(line_drawer.o): in function `sk::line_drawer_update()':
+          /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/systems/line_drawer.cpp:39: undefined reference to `mesh_set_data'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/systems/line_drawer.cpp:41: undefined reference to `mesh_create'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/systems/line_drawer.cpp:42: undefined reference to `mesh_set_keep_data'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/systems/line_drawer.cpp:43: undefined reference to `mesh_set_id'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/systems/line_drawer.cpp:44: undefined reference to `mesh_set_data'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/systems/line_drawer.cpp:47: undefined reference to `mesh_set_draw_inds'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/target/x86_64-unknown-linux-musl/debug/deps/libstereokit_sys-c91d31f25ec4226a.rlib(line_drawer.o): in function `sk::line_drawer_shutdown()':
+          /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/systems/line_drawer.cpp:57: undefined reference to `mesh_release'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/systems/line_drawer.cpp:58: undefined reference to `material_release'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/target/x86_64-unknown-linux-musl/debug/deps/libstereokit_sys-c91d31f25ec4226a.rlib(render.o): in function `sk::render_update_projection()':
+          /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/systems/render.cpp:229: undefined reference to `device_display_get_width'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/systems/render.cpp:229: undefined reference to `device_display_get_height'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/systems/render.cpp:251: undefined reference to `sk::device_data'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/target/x86_64-unknown-linux-musl/debug/deps/libstereokit_sys-c91d31f25ec4226a.rlib(render.o): in function `render_set_skytex':
+          /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/systems/render.cpp:361: undefined reference to `log_err'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/target/x86_64-unknown-linux-musl/debug/deps/libstereokit_sys-c91d31f25ec4226a.rlib(render.o): in function `render_global_texture':
+          /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/systems/render.cpp:468: undefined reference to `log_errf'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/target/x86_64-unknown-linux-musl/debug/deps/libstereokit_sys-c91d31f25ec4226a.rlib(render.o): in function `sk::render_draw_queue(sk::matrix const*, sk::matrix const*, sk::render_layer_, int)':
+          /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/systems/render.cpp:602: undefined reference to `material_buffer_set_data'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/systems/render.cpp:606: undefined reference to `sk::material_buffers'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/systems/render.cpp:607: undefined reference to `sk::material_buffers'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/target/x86_64-unknown-linux-musl/debug/deps/libstereokit_sys-c91d31f25ec4226a.rlib(render.o): in function `sk::render_init()':
+          /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/systems/render.cpp:757: undefined reference to `material_buffer_create'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/systems/render.cpp:773: undefined reference to `mesh_find'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/systems/render.cpp:776: undefined reference to `mesh_create'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/systems/render.cpp:783: undefined reference to `mesh_set_data'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/systems/render.cpp:784: undefined reference to `mesh_set_id'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/systems/render.cpp:786: undefined reference to `shader_find'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/systems/render.cpp:787: undefined reference to `material_create'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/systems/render.cpp:788: undefined reference to `shader_release'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/systems/render.cpp:790: undefined reference to `material_set_id'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/systems/render.cpp:791: undefined reference to `material_set_queue_offset'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/target/x86_64-unknown-linux-musl/debug/deps/libstereokit_sys-c91d31f25ec4226a.rlib(render.o): in function `sk::render_update()':
+          /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/systems/render.cpp:803: undefined reference to `log_err'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/target/x86_64-unknown-linux-musl/debug/deps/libstereokit_sys-c91d31f25ec4226a.rlib(render.o): in function `sk::render_shutdown()':
+          /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/systems/render.cpp:826: undefined reference to `material_release'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/systems/render.cpp:827: undefined reference to `mesh_release'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/systems/render.cpp:828: undefined reference to `mesh_release'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/systems/render.cpp:829: undefined reference to `material_buffer_release'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/target/x86_64-unknown-linux-musl/debug/deps/libstereokit_sys-c91d31f25ec4226a.rlib(render.o): in function `sk::render_list_prep(int)':
+          /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/systems/render.cpp:1177: undefined reference to `sk::material_check_dirty(sk::_material_t*)'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/target/x86_64-unknown-linux-musl/debug/deps/libstereokit_sys-c91d31f25ec4226a.rlib(input.o): in function `sk::input_init()':
+          /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/systems/input.cpp:99: undefined reference to `sk::input_keyboard_initialize()'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/target/x86_64-unknown-linux-musl/debug/deps/libstereokit_sys-c91d31f25ec4226a.rlib(input.o): in function `sk::input_shutdown()':
+          /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/systems/input.cpp:107: undefined reference to `sk::input_keyboard_shutdown()'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/target/x86_64-unknown-linux-musl/debug/deps/libstereokit_sys-c91d31f25ec4226a.rlib(input.o): in function `sk::input_update()':
+          /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/systems/input.cpp:117: undefined reference to `sk::input_keyboard_update()'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/target/x86_64-unknown-linux-musl/debug/deps/libstereokit_sys-c91d31f25ec4226a.rlib(input.o): in function `input_key':
+          /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/systems/input.cpp:140: undefined reference to `sk::input_keyboard_get(sk::key_)'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/target/x86_64-unknown-linux-musl/debug/deps/libstereokit_sys-c91d31f25ec4226a.rlib(world.o): in function `sk::world_request_update(sk::scene_request_info_t)':
+          /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/systems/world.cpp:247: undefined reference to `log_err'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/systems/world.cpp:274: undefined reference to `log_warnf'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/target/x86_64-unknown-linux-musl/debug/deps/libstereokit_sys-c91d31f25ec4226a.rlib(world.o): in function `sk::world_update_meshes(array_t<sk::scene_mesh_t>*)':
+          /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/systems/world.cpp:303: undefined reference to `log_warnf'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/systems/world.cpp:317: undefined reference to `log_warnf'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/systems/world.cpp:321: undefined reference to `mesh_create'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/systems/world.cpp:325: undefined reference to `sk::mesh_calculate_normals(sk::vert_t*, int, unsigned int const*, int)'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/systems/world.cpp:326: undefined reference to `mesh_set_keep_data'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/systems/world.cpp:327: undefined reference to `mesh_set_inds'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/systems/world.cpp:328: undefined reference to `mesh_set_verts'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/target/x86_64-unknown-linux-musl/debug/deps/libstereokit_sys-c91d31f25ec4226a.rlib(world.o): in function `sk::world_mesh_get_or_add(unsigned long)':
+          /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/systems/world.cpp:341: undefined reference to `mesh_create'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/target/x86_64-unknown-linux-musl/debug/deps/libstereokit_sys-c91d31f25ec4226a.rlib(world.o): in function `sk::world_load_scene_meshes(XrSceneComponentTypeMSFT, array_t<sk::su_mesh_inst_t>*)':
+          /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/systems/world.cpp:351: undefined reference to `log_warn'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/systems/world.cpp:361: undefined reference to `log_warn'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/systems/world.cpp:401: undefined reference to `mesh_get_keep_data'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/target/x86_64-unknown-linux-musl/debug/deps/libstereokit_sys-c91d31f25ec4226a.rlib(world.o): in function `sk::world_init()':
+          /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/systems/world.cpp:416: undefined reference to `material_copy_id'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/systems/world.cpp:417: undefined reference to `material_set_id'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/systems/world.cpp:418: undefined reference to `material_set_color'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/target/x86_64-unknown-linux-musl/debug/deps/libstereokit_sys-c91d31f25ec4226a.rlib(world.o): in function `sk::world_update()':
+          /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/systems/world.cpp:449: undefined reference to `log_warn'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/systems/world.cpp:458: undefined reference to `log_warn'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/systems/world.cpp:465: undefined reference to `log_warn'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/target/x86_64-unknown-linux-musl/debug/deps/libstereokit_sys-c91d31f25ec4226a.rlib(world.o): in function `sk::world_scene_shutdown()':
+          /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/systems/world.cpp:490: undefined reference to `material_release'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/target/x86_64-unknown-linux-musl/debug/deps/libstereokit_sys-c91d31f25ec4226a.rlib(world.o): in function `sk::world_scene_shutdown()::$_0::operator()(sk::scene_mesh_t&) const':
+          /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/systems/world.cpp:485: undefined reference to `mesh_release'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/target/x86_64-unknown-linux-musl/debug/deps/libstereokit_sys-c91d31f25ec4226a.rlib(stereokit.o): in function `sk_init':
+          /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/stereokit.cpp:132: undefined reference to `log_set_filter'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/stereokit.cpp:147: undefined reference to `log_diagf'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/stereokit.cpp:149: undefined reference to `stm_setup'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/stereokit.cpp:241: undefined reference to `sk::audio_init()'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/stereokit.cpp:242: undefined reference to `sk::audio_update()'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/stereokit.cpp:243: undefined reference to `sk::audio_shutdown()'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/stereokit.cpp:321: undefined reference to `sk::log_show_any_fail_reason()'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/stereokit.cpp:322: undefined reference to `sk::log_clear_any_fail_reason()'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/stereokit.cpp:325: undefined reference to `stm_now'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/target/x86_64-unknown-linux-musl/debug/deps/libstereokit_sys-c91d31f25ec4226a.rlib(stereokit.o): in function `sk::sk_update_timer()':
+          /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/stereokit.cpp:436: undefined reference to `stm_now'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/stereokit.cpp:437: undefined reference to `stm_sec'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/target/x86_64-unknown-linux-musl/debug/deps/libstereokit_sys-c91d31f25ec4226a.rlib(stereokit.o): in function `sk_shutdown':
+          /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/stereokit.cpp:346: undefined reference to `log_err'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/stereokit.cpp:350: undefined reference to `sk::log_show_any_fail_reason()'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/target/x86_64-unknown-linux-musl/debug/deps/libstereokit_sys-c91d31f25ec4226a.rlib(stereokit.o): in function `sk_step':
+          /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/stereokit.cpp:368: undefined reference to `stm_since'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/stereokit.cpp:380: undefined reference to `device_display_get_type'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/stereokit.cpp:381: undefined reference to `sk::platform_sleep(int)'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/target/x86_64-unknown-linux-musl/debug/deps/libstereokit_sys-c91d31f25ec4226a.rlib(stereokit.o): in function `sk::sk_assert_thread_valid()':
+          /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/stereokit.cpp:466: undefined reference to `log_err'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/stereokit.cpp:467: undefined reference to `sk::platform_msgbox_err(char const*, char const*)'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/target/x86_64-unknown-linux-musl/debug/deps/libstereokit_sys-c91d31f25ec4226a.rlib(stereokit.o): in function `sk_active_display_mode':
+          /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/stereokit.cpp:479: undefined reference to `device_display_get_type'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/target/x86_64-unknown-linux-musl/debug/deps/libstereokit_sys-c91d31f25ec4226a.rlib(animation.o): in function `sk::_anim_inst_check_ready(sk::_model_t*)':
+          /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/asset_types/animation.cpp:201: undefined reference to `mesh_copy'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/target/x86_64-unknown-linux-musl/debug/deps/libstereokit_sys-c91d31f25ec4226a.rlib(animation.o): in function `sk::_anim_update_skin(sk::_model_t*&)':
+          /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/asset_types/animation.cpp:221: undefined reference to `mesh_update_skin'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/target/x86_64-unknown-linux-musl/debug/deps/libstereokit_sys-c91d31f25ec4226a.rlib(animation.o): in function `sk::anim_inst_destroy(sk::anim_inst_t*)':
+          /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/asset_types/animation.cpp:256: undefined reference to `mesh_release'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/asset_types/animation.cpp:257: undefined reference to `mesh_release'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/target/x86_64-unknown-linux-musl/debug/deps/libstereokit_sys-c91d31f25ec4226a.rlib(assets.o): in function `sk::assets_allocate(sk::asset_type_)':
+          /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/asset_types/assets.cpp:111: undefined reference to `log_err'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/target/x86_64-unknown-linux-musl/debug/deps/libstereokit_sys-c91d31f25ec4226a.rlib(assets.o): in function `sk::assets_set_id(sk::asset_header_t*, unsigned long)':
+          /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/asset_types/assets.cpp:143: undefined reference to `log_errf'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/target/x86_64-unknown-linux-musl/debug/deps/libstereokit_sys-c91d31f25ec4226a.rlib(assets.o): in function `sk::assets_releaseref(sk::asset_header_t*)':
+          /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/asset_types/assets.cpp:164: undefined reference to `log_errf'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/asset_types/assets.cpp:166: undefined reference to `log_errf'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/target/x86_64-unknown-linux-musl/debug/deps/libstereokit_sys-c91d31f25ec4226a.rlib(assets.o): in function `sk::assets_destroy(sk::asset_header_t*)':
+          /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/asset_types/assets.cpp:206: undefined reference to `sk::mesh_destroy(sk::_mesh_t*)'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/asset_types/assets.cpp:208: undefined reference to `sk::shader_destroy(sk::_shader_t*)'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/asset_types/assets.cpp:209: undefined reference to `sk::material_destroy(sk::_material_t*)'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/asset_types/assets.cpp:215: undefined reference to `log_err'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/target/x86_64-unknown-linux-musl/debug/deps/libstereokit_sys-c91d31f25ec4226a.rlib(assets.o): in function `assets_releaseref_threadsafe':
+          /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/asset_types/assets.cpp:183: undefined reference to `log_errf'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/asset_types/assets.cpp:185: undefined reference to `log_errf'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/target/x86_64-unknown-linux-musl/debug/deps/libstereokit_sys-c91d31f25ec4226a.rlib(assets.o): in function `sk::assets_execute_gpu(int (*)(void*), void*)':
+          /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/asset_types/assets.cpp:455: undefined reference to `stm_now'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/asset_types/assets.cpp:462: undefined reference to `stm_since'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/asset_types/assets.cpp:462: undefined reference to `stm_ms'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/asset_types/assets.cpp:463: undefined reference to `log_warn'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/target/x86_64-unknown-linux-musl/debug/deps/libstereokit_sys-c91d31f25ec4226a.rlib(assets.o): in function `sk::assets_block_until(sk::asset_header_t*, sk::asset_state_)':
+          /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/asset_types/assets.cpp:757: undefined reference to `log_err'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/target/x86_64-unknown-linux-musl/debug/deps/libstereokit_sys-c91d31f25ec4226a.rlib(model.o): in function `sk::model_destroy(sk::_model_t*)':
+          /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/asset_types/model.cpp:459: undefined reference to `mesh_release'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/asset_types/model.cpp:460: undefined reference to `material_release'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/target/x86_64-unknown-linux-musl/debug/deps/libstereokit_sys-c91d31f25ec4226a.rlib(model.o): in function `model_node_get_mesh':
+          /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/asset_types/model.cpp:662: undefined reference to `mesh_addref'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/target/x86_64-unknown-linux-musl/debug/deps/libstereokit_sys-c91d31f25ec4226a.rlib(model.o): in function `model_node_set_mesh':
+          /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/asset_types/model.cpp:729: undefined reference to `mesh_addref'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/asset_types/model.cpp:730: undefined reference to `mesh_release'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/target/x86_64-unknown-linux-musl/debug/deps/libstereokit_sys-c91d31f25ec4226a.rlib(texture.o): in function `tex_get_cubemap_lighting':
+          /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/asset_types/texture.cpp:962: undefined reference to `log_warn'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/asset_types/texture.cpp:965: undefined reference to `log_warn'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/target/x86_64-unknown-linux-musl/debug/deps/libstereokit_sys-c91d31f25ec4226a.rlib(texture.o): in function `tex_add_zbuffer':
+          /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/asset_types/texture.cpp:658: undefined reference to `log_err'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/target/x86_64-unknown-linux-musl/debug/deps/libstereokit_sys-c91d31f25ec4226a.rlib(texture.o): in function `sk::tex_set_zbuffer(sk::_tex_t*, sk::_tex_t*)':
+          /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/asset_types/texture.cpp:678: undefined reference to `log_err'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/asset_types/texture.cpp:682: undefined reference to `log_err'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/target/x86_64-unknown-linux-musl/debug/deps/libstereokit_sys-c91d31f25ec4226a.rlib(texture.o): in function `sk::_tex_set_color_arr(sk::_tex_t*, int, int, void**, int, sk::spherical_harmonics_t*, int)':
+          /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/asset_types/texture.cpp:864: undefined reference to `log_warn'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/target/x86_64-unknown-linux-musl/debug/deps/libstereokit_sys-c91d31f25ec4226a.rlib(texture.o): in function `tex_get_data_mip':
+          /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/asset_types/texture.cpp:1161: undefined reference to `log_warn'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/asset_types/texture.cpp:1181: undefined reference to `log_warn'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/target/x86_64-unknown-linux-musl/debug/deps/libstereokit_sys-c91d31f25ec4226a.rlib(texture.o): in function `tex_set_loading_fallback':
+          /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/asset_types/texture.cpp:1192: undefined reference to `log_err'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/target/x86_64-unknown-linux-musl/debug/deps/libstereokit_sys-c91d31f25ec4226a.rlib(texture.o): in function `tex_set_error_fallback':
+          /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/asset_types/texture.cpp:1207: undefined reference to `log_err'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/target/x86_64-unknown-linux-musl/debug/deps/libstereokit_sys-c91d31f25ec4226a.rlib(texture.o): in function `tex_gen_color':
+          /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/asset_types/texture.cpp:1230: undefined reference to `log_err'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/target/x86_64-unknown-linux-musl/debug/deps/libstereokit_sys-c91d31f25ec4226a.rlib(sprite.o): in function `sk::sprite_create_material(int)':
+          /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/asset_types/sprite.cpp:59: undefined reference to `shader_find'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/asset_types/sprite.cpp:60: undefined reference to `material_create'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/asset_types/sprite.cpp:61: undefined reference to `material_set_id'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/asset_types/sprite.cpp:62: undefined reference to `material_set_transparency'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/asset_types/sprite.cpp:63: undefined reference to `material_set_cull'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/asset_types/sprite.cpp:64: undefined reference to `material_set_depth_test'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/asset_types/sprite.cpp:65: undefined reference to `shader_release'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/target/x86_64-unknown-linux-musl/debug/deps/libstereokit_sys-c91d31f25ec4226a.rlib(sprite.o): in function `sprite_create':
+          /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/asset_types/sprite.cpp:74: undefined reference to `log_diag'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/asset_types/sprite.cpp:109: undefined reference to `material_set_texture'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/target/x86_64-unknown-linux-musl/debug/deps/libstereokit_sys-c91d31f25ec4226a.rlib(sprite.o): in function `sk::sprite_destroy(sk::_sprite_t*)':
+          /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/asset_types/sprite.cpp:205: undefined reference to `material_release'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/target/x86_64-unknown-linux-musl/debug/deps/libstereokit_sys-c91d31f25ec4226a.rlib(font.o): in function `sk::font_destroy(sk::_font_t*)':
+          /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/asset_types/font.cpp:279: undefined reference to `rect_atlas_destroy(rect_atlas_t*)'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/target/x86_64-unknown-linux-musl/debug/deps/libstereokit_sys-c91d31f25ec4226a.rlib(stereokit_ui.o): in function `sk::ui_default_mesh(sk::_mesh_t**, bool, float, float, int)':
+          /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/ui/stereokit_ui.cpp:229: undefined reference to `mesh_create'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/ui/stereokit_ui.cpp:293: undefined reference to `mesh_set_data'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/target/x86_64-unknown-linux-musl/debug/deps/libstereokit_sys-c91d31f25ec4226a.rlib(stereokit_ui.o): in function `sk::ui_default_mesh_half(sk::_mesh_t**, bool, float, float, int, float)':
+          /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/ui/stereokit_ui.cpp:303: undefined reference to `mesh_create'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/ui/stereokit_ui.cpp:405: undefined reference to `mesh_set_data'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/target/x86_64-unknown-linux-musl/debug/deps/libstereokit_sys-c91d31f25ec4226a.rlib(stereokit_ui.o): in function `ui_settings':
+          /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/ui/stereokit_ui.cpp:503: undefined reference to `mesh_set_id'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/ui/stereokit_ui.cpp:504: undefined reference to `mesh_set_id'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/ui/stereokit_ui.cpp:505: undefined reference to `mesh_set_id'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/ui/stereokit_ui.cpp:506: undefined reference to `mesh_set_id'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/ui/stereokit_ui.cpp:507: undefined reference to `mesh_set_id'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/target/x86_64-unknown-linux-musl/debug/deps/libstereokit_sys-c91d31f25ec4226a.rlib(stereokit_ui.o):/home/nova/xr/stereokit-sys/StereoKit/StereoKitC/ui/stereokit_ui.cpp:508: more undefined references to `mesh_set_id' follow
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/target/x86_64-unknown-linux-musl/debug/deps/libstereokit_sys-c91d31f25ec4226a.rlib(stereokit_ui.o): in function `ui_set_element_visual':
+          /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/ui/stereokit_ui.cpp:566: undefined reference to `mesh_addref'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/ui/stereokit_ui.cpp:567: undefined reference to `material_addref'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/ui/stereokit_ui.cpp:568: undefined reference to `mesh_release'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/ui/stereokit_ui.cpp:569: undefined reference to `material_release'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/target/x86_64-unknown-linux-musl/debug/deps/libstereokit_sys-c91d31f25ec4226a.rlib(stereokit_ui.o): in function `sk::ui_init()':
+          /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/ui/stereokit_ui.cpp:704: undefined reference to `mesh_set_id'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/ui/stereokit_ui.cpp:771: undefined reference to `mesh_find'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/ui/stereokit_ui.cpp:772: undefined reference to `material_copy_id'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/ui/stereokit_ui.cpp:773: undefined reference to `material_set_transparency'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/ui/stereokit_ui.cpp:774: undefined reference to `material_set_color'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/ui/stereokit_ui.cpp:775: undefined reference to `material_set_depth_write'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/ui/stereokit_ui.cpp:776: undefined reference to `material_set_depth_test'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/ui/stereokit_ui.cpp:777: undefined reference to `material_set_id'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/ui/stereokit_ui.cpp:779: undefined reference to `material_find'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/ui/stereokit_ui.cpp:780: undefined reference to `material_set_queue_offset'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/ui/stereokit_ui.cpp:789: undefined reference to `material_copy_id'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/ui/stereokit_ui.cpp:790: undefined reference to `material_set_bool'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/ui/stereokit_ui.cpp:791: undefined reference to `material_set_id'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/ui/stereokit_ui.cpp:792: undefined reference to `material_find'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/target/x86_64-unknown-linux-musl/debug/deps/libstereokit_sys-c91d31f25ec4226a.rlib(stereokit_ui.o): in function `sk::ui_update_late()':
+          /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/ui/stereokit_ui.cpp:888: undefined reference to `log_err'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/ui/stereokit_ui.cpp:889: undefined reference to `log_err'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/ui/stereokit_ui.cpp:890: undefined reference to `log_err'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/ui/stereokit_ui.cpp:891: undefined reference to `log_err'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/ui/stereokit_ui.cpp:892: undefined reference to `log_err'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/target/x86_64-unknown-linux-musl/debug/deps/libstereokit_sys-c91d31f25ec4226a.rlib(stereokit_ui.o): in function `sk::ui_shutdown()':
+          /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/ui/stereokit_ui.cpp:899: undefined reference to `mesh_release'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/ui/stereokit_ui.cpp:900: undefined reference to `material_release'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/ui/stereokit_ui.cpp:918: undefined reference to `mesh_release'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/ui/stereokit_ui.cpp:919: undefined reference to `mesh_release'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/ui/stereokit_ui.cpp:920: undefined reference to `mesh_release'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/ui/stereokit_ui.cpp:921: undefined reference to `mesh_release'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/ui/stereokit_ui.cpp:922: undefined reference to `mesh_release'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/target/x86_64-unknown-linux-musl/debug/deps/libstereokit_sys-c91d31f25ec4226a.rlib(stereokit_ui.o):/home/nova/xr/stereokit-sys/StereoKit/StereoKitC/ui/stereokit_ui.cpp:923: more undefined references to `mesh_release' follow
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/target/x86_64-unknown-linux-musl/debug/deps/libstereokit_sys-c91d31f25ec4226a.rlib(stereokit_ui.o): in function `sk::ui_shutdown()':
+          /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/ui/stereokit_ui.cpp:926: undefined reference to `material_release'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/ui/stereokit_ui.cpp:927: undefined reference to `material_release'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/ui/stereokit_ui.cpp:928: undefined reference to `material_release'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/ui/stereokit_ui.cpp:929: undefined reference to `material_release'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/target/x86_64-unknown-linux-musl/debug/deps/libstereokit_sys-c91d31f25ec4226a.rlib(platform.o): in function `sk::platform_init()':
+          /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/platforms/platform.cpp:35: undefined reference to `sk::log_fail_reason(int, sk::log_, char const*)'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/platforms/platform.cpp:55: undefined reference to `sk::log_fail_reason(int, sk::log_, char const*)'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/platforms/platform.cpp:58: undefined reference to `sk::device_data'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/platforms/platform.cpp:71: undefined reference to `sk::log_clear_any_fail_reason()'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/platforms/platform.cpp:72: undefined reference to `log_infof'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/platforms/platform.cpp:76: undefined reference to `log_errf'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/platforms/platform.cpp:80: undefined reference to `sk::platform_utils_init()'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/target/x86_64-unknown-linux-musl/debug/deps/libstereokit_sys-c91d31f25ec4226a.rlib(platform.o): in function `sk::platform_set_mode(sk::display_type_)':
+          /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/platforms/platform.cpp:128: undefined reference to `sk::device_data'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/platforms/platform.cpp:132: undefined reference to `log_diag'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/platforms/platform.cpp:133: undefined reference to `log_diag'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/platforms/platform.cpp:134: undefined reference to `log_diag'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/platforms/platform.cpp:138: undefined reference to `sk::device_data'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/target/x86_64-unknown-linux-musl/debug/deps/libstereokit_sys-c91d31f25ec4226a.rlib(platform.o): in function `sk::platform_shutdown()':
+          /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/platforms/platform.cpp:86: undefined reference to `sk::platform_utils_shutdown()'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/platforms/platform.cpp:102: undefined reference to `sk::device_data'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/platforms/platform.cpp:102: undefined reference to `sk::device_data_free(sk::device_data_t*)'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/target/x86_64-unknown-linux-musl/debug/deps/libstereokit_sys-c91d31f25ec4226a.rlib(platform.o): in function `sk::platform_stop_mode()':
+          /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/platforms/platform.cpp:266: undefined reference to `sk::device_data'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/platforms/platform.cpp:288: undefined reference to `sk::device_data'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/target/x86_64-unknown-linux-musl/debug/deps/libstereokit_sys-c91d31f25ec4226a.rlib(platform.o): in function `sk::platform_step_begin()':
+          /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/platforms/platform.cpp:199: undefined reference to `sk::device_data'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/platforms/platform.cpp:233: undefined reference to `sk::platform_utils_update()'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/target/x86_64-unknown-linux-musl/debug/deps/libstereokit_sys-c91d31f25ec4226a.rlib(platform.o): in function `sk::platform_step_end()':
+          /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/platforms/platform.cpp:239: undefined reference to `sk::device_data'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/target/x86_64-unknown-linux-musl/debug/deps/libstereokit_sys-c91d31f25ec4226a.rlib(platform.o): in function `sk::platform_init()::$_0::operator()(skg_log_, char const*) const':
+          /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/platforms/platform.cpp:49: undefined reference to `log_diagf'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/platforms/platform.cpp:50: undefined reference to `log_warnf'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/platforms/platform.cpp:51: undefined reference to `log_errf'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/target/x86_64-unknown-linux-musl/debug/deps/libstereokit_sys-c91d31f25ec4226a.rlib(linux.o): in function `sk::linux_events()':
+          /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/platforms/linux.cpp:178: undefined reference to `utf8_decode_fast(char const*, char const**)'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/platforms/linux.cpp:179: undefined reference to `sk::input_text_inject_char(char32_t)'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/platforms/linux.cpp:189: undefined reference to `sk::input_keyboard_inject_press(sk::key_)'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/platforms/linux.cpp:190: undefined reference to `sk::input_keyboard_inject_release(sk::key_)'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/platforms/linux.cpp:194: undefined reference to `sk::input_last_physical_keypress'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/platforms/linux.cpp:195: undefined reference to `platform_keyboard_show'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/platforms/linux.cpp:201: undefined reference to `sk::input_text_inject_char(char32_t)'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/platforms/linux.cpp:209: undefined reference to `sk::input_keyboard_inject_press(sk::key_)'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/platforms/linux.cpp:210: undefined reference to `sk::input_keyboard_inject_press(sk::key_)'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/platforms/linux.cpp:211: undefined reference to `sk::input_keyboard_inject_press(sk::key_)'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/platforms/linux.cpp:212: undefined reference to `sk::input_keyboard_inject_press(sk::key_)'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/platforms/linux.cpp:213: undefined reference to `sk::input_keyboard_inject_press(sk::key_)'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/platforms/linux.cpp:222: undefined reference to `sk::input_keyboard_inject_release(sk::key_)'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/platforms/linux.cpp:223: undefined reference to `sk::input_keyboard_inject_release(sk::key_)'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/platforms/linux.cpp:224: undefined reference to `sk::input_keyboard_inject_release(sk::key_)'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/platforms/linux.cpp:225: undefined reference to `sk::input_keyboard_inject_release(sk::key_)'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/platforms/linux.cpp:226: undefined reference to `sk::input_keyboard_inject_release(sk::key_)'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/target/x86_64-unknown-linux-musl/debug/deps/libstereokit_sys-c91d31f25ec4226a.rlib(linux.o): in function `sk::linux_resize(int, int)':
+          /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/platforms/linux.cpp:465: undefined reference to `sk::device_data'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/platforms/linux.cpp:466: undefined reference to `sk::device_data'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/platforms/linux.cpp:467: undefined reference to `log_diagf'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/target/x86_64-unknown-linux-musl/debug/deps/libstereokit_sys-c91d31f25ec4226a.rlib(linux.o): in function `sk::linux_start_flat()':
+          /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/platforms/linux.cpp:441: undefined reference to `sk::device_data'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/platforms/linux.cpp:442: undefined reference to `sk::device_data'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/platforms/linux.cpp:443: undefined reference to `sk::device_data'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/platforms/linux.cpp:444: undefined reference to `sk::device_data'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/platforms/linux.cpp:445: undefined reference to `sk::device_data'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/target/x86_64-unknown-linux-musl/debug/deps/libstereokit_sys-c91d31f25ec4226a.rlib(linux.o):/home/nova/xr/stereokit-sys/StereoKit/StereoKitC/platforms/linux.cpp:446: more undefined references to `sk::device_data' follow
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/target/x86_64-unknown-linux-musl/debug/deps/libstereokit_sys-c91d31f25ec4226a.rlib(linux.o): in function `sk::linux_step_end_flat()':
+          /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/platforms/linux.cpp:549: undefined reference to `stm_now'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/target/x86_64-unknown-linux-musl/debug/deps/libstereokit_sys-c91d31f25ec4226a.rlib(flatscreen_input.o): in function `sk::flatscreen_mouse_update()':
+          /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/platforms/flatscreen_input.cpp:118: undefined reference to `sk::platform_get_scroll()'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/platforms/flatscreen_input.cpp:119: undefined reference to `sk::platform_get_cursor(sk::vec2&)'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/target/x86_64-unknown-linux-musl/debug/deps/libstereokit_sys-c91d31f25ec4226a.rlib(flatscreen_input.o): in function `sk::flatscreen_input_update()':
+          /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/platforms/flatscreen_input.cpp:77: undefined reference to `sk::platform_set_cursor(sk::vec2)'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/target/x86_64-unknown-linux-musl/debug/deps/libstereokit_sys-c91d31f25ec4226a.rlib(openxr_input.o): in function `sk::oxri_init()':
+          /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/xr_backends/openxr_input.cpp:66: undefined reference to `sk::xrc_offset_pos'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/xr_backends/openxr_input.cpp:67: undefined reference to `sk::xrc_offset_pos'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/xr_backends/openxr_input.cpp:68: undefined reference to `sk::xrc_offset_rot'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/xr_backends/openxr_input.cpp:69: undefined reference to `sk::xrc_offset_rot'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/xr_backends/openxr_input.cpp:78: undefined reference to `log_infof'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/xr_backends/openxr_input.cpp:94: undefined reference to `log_infof'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/xr_backends/openxr_input.cpp:104: undefined reference to `log_infof'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/xr_backends/openxr_input.cpp:115: undefined reference to `log_infof'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/xr_backends/openxr_input.cpp:124: undefined reference to `log_infof'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/target/x86_64-unknown-linux-musl/debug/deps/libstereokit_sys-c91d31f25ec4226a.rlib(openxr_input.o):/home/nova/xr/stereokit-sys/StereoKit/StereoKitC/xr_backends/openxr_input.cpp:134: more undefined references to `log_infof' follow
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/target/x86_64-unknown-linux-musl/debug/deps/libstereokit_sys-c91d31f25ec4226a.rlib(openxr_input.o): in function `sk::oxri_init()':
+          /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/xr_backends/openxr_input.cpp:204: undefined reference to `log_warnf'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/xr_backends/openxr_input.cpp:218: undefined reference to `log_warnf'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/xr_backends/openxr_input.cpp:226: undefined reference to `log_warnf'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/xr_backends/openxr_input.cpp:588: undefined reference to `log_errf'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/xr_backends/openxr_input.cpp:598: undefined reference to `log_errf'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/xr_backends/openxr_input.cpp:609: undefined reference to `log_errf'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/xr_backends/openxr_input.cpp:621: undefined reference to `log_errf'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/target/x86_64-unknown-linux-musl/debug/deps/libstereokit_sys-c91d31f25ec4226a.rlib(openxr_input.o): in function `sk::oxri_set_profile(sk::handed_, unsigned long)':
+          /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/xr_backends/openxr_input.cpp:839: undefined reference to `sk::xrc_offset_pos'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/xr_backends/openxr_input.cpp:840: undefined reference to `sk::xrc_offset_rot'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/xr_backends/openxr_input.cpp:841: undefined reference to `log_diagf'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/target/x86_64-unknown-linux-musl/debug/deps/libstereokit_sys-c91d31f25ec4226a.rlib(openxr_input.o): in function `sk::oxri_update_poses()':
+          /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/xr_backends/openxr_input.cpp:719: undefined reference to `sk::xrc_offset_rot'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/xr_backends/openxr_input.cpp:720: undefined reference to `sk::xrc_offset_pos'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/target/x86_64-unknown-linux-musl/debug/deps/libstereokit_sys-c91d31f25ec4226a.rlib(openxr.o): in function `sk::openxr_get_stage_bounds(sk::vec2*, sk::pose_t*, long)':
+          /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/xr_backends/openxr.cpp:134: undefined reference to `log_diagf'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/target/x86_64-unknown-linux-musl/debug/deps/libstereokit_sys-c91d31f25ec4226a.rlib(openxr.o): in function `sk::openxr_create_system()':
+          /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/xr_backends/openxr.cpp:207: undefined reference to `sk::log_fail_reasonf(int, sk::log_, char const*, ...)'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/xr_backends/openxr.cpp:214: undefined reference to `log_infof'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/xr_backends/openxr.cpp:217: undefined reference to `log_diagf'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/xr_backends/openxr.cpp:265: undefined reference to `sk::log_fail_reasonf(int, sk::log_, char const*, ...)'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/target/x86_64-unknown-linux-musl/debug/deps/libstereokit_sys-c91d31f25ec4226a.rlib(openxr.o): in function `sk::openxr_preferred_layers(unsigned int&, char const**)':
+          /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/xr_backends/openxr.cpp:574: undefined reference to `log_diagf'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/target/x86_64-unknown-linux-musl/debug/deps/libstereokit_sys-c91d31f25ec4226a.rlib(openxr.o): in function `sk::openxr_acquire_time()':
+          /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/xr_backends/openxr.cpp:304: undefined reference to `log_warn'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/target/x86_64-unknown-linux-musl/debug/deps/libstereokit_sys-c91d31f25ec4226a.rlib(openxr.o): in function `sk::openxr_init()':
+          /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/xr_backends/openxr.cpp:329: undefined reference to `log_infof'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/xr_backends/openxr.cpp:352: undefined reference to `log_infof'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/xr_backends/openxr.cpp:401: undefined reference to `sk::log_fail_reasonf(int, sk::log_, char const*, ...)'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/xr_backends/openxr.cpp:408: undefined reference to `log_infof'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/xr_backends/openxr.cpp:420: undefined reference to `log_infof'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/xr_backends/openxr.cpp:422: undefined reference to `log_diagf'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/xr_backends/openxr.cpp:423: undefined reference to `sk::device_data'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/xr_backends/openxr.cpp:432: undefined reference to `log_diagf'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/xr_backends/openxr.cpp:433: undefined reference to `log_diagf'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/xr_backends/openxr.cpp:471: undefined reference to `sk::device_data'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/xr_backends/openxr.cpp:472: undefined reference to `sk::device_data'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/xr_backends/openxr.cpp:473: undefined reference to `sk::device_data'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/xr_backends/openxr.cpp:474: undefined reference to `sk::device_data'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/xr_backends/openxr.cpp:475: undefined reference to `sk::device_data'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/xr_backends/openxr.cpp:478: undefined reference to `log_diag'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/xr_backends/openxr.cpp:479: undefined reference to `log_diag'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/xr_backends/openxr.cpp:480: undefined reference to `log_diag'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/xr_backends/openxr.cpp:481: undefined reference to `log_diag'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/xr_backends/openxr.cpp:482: undefined reference to `log_diag'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/target/x86_64-unknown-linux-musl/debug/deps/libstereokit_sys-c91d31f25ec4226a.rlib(openxr.o):/home/nova/xr/stereokit-sys/StereoKit/StereoKitC/xr_backends/openxr.cpp:497: more undefined references to `log_diag' follow
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/target/x86_64-unknown-linux-musl/debug/deps/libstereokit_sys-c91d31f25ec4226a.rlib(openxr.o): in function `sk::openxr_init()':
+          /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/xr_backends/openxr.cpp:509: undefined reference to `log_infof'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/xr_backends/openxr.cpp:520: undefined reference to `log_infof'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/xr_backends/openxr.cpp:540: undefined reference to `log_diag'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/target/x86_64-unknown-linux-musl/debug/deps/libstereokit_sys-c91d31f25ec4226a.rlib(openxr.o): in function `sk::openxr_poll_events()':
+          /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/xr_backends/openxr.cpp:703: undefined reference to `log_errf'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/xr_backends/openxr.cpp:727: undefined reference to `log_diag'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/target/x86_64-unknown-linux-musl/debug/deps/libstereokit_sys-c91d31f25ec4226a.rlib(openxr.o): in function `sk::openxr_create_system()::$_0::operator()(char const*) const':
+          /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/xr_backends/openxr.cpp:164: undefined reference to `log_diagf'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/target/x86_64-unknown-linux-musl/debug/deps/libstereokit_sys-c91d31f25ec4226a.rlib(openxr.o): in function `sk::openxr_create_system()::$_1::operator()(char const*&) const':
+          /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/xr_backends/openxr.cpp:166: undefined reference to `log_diagf'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/target/x86_64-unknown-linux-musl/debug/deps/libstereokit_sys-c91d31f25ec4226a.rlib(openxr.o): in function `sk::openxr_create_system()::$_2::operator()(unsigned long, unsigned long, XrDebugUtilsMessengerCallbackDataEXT const*, void*) const':
+          /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/xr_backends/openxr.cpp:250: undefined reference to `log_writef'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/target/x86_64-unknown-linux-musl/debug/deps/libstereokit_sys-c91d31f25ec4226a.rlib(openxr_view.o): in function `sk::openxr_views_create()':
+          /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/xr_backends/openxr_view.cpp:248: undefined reference to `log_infof'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/xr_backends/openxr_view.cpp:251: undefined reference to `log_infof'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/xr_backends/openxr_view.cpp:274: undefined reference to `log_info'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/target/x86_64-unknown-linux-musl/debug/deps/libstereokit_sys-c91d31f25ec4226a.rlib(openxr_view.o): in function `sk::openxr_create_view(XrViewConfigurationType, sk::device_display_t&)':
+          /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/xr_backends/openxr_view.cpp:325: undefined reference to `log_diagf'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/xr_backends/openxr_view.cpp:337: undefined reference to `log_diagf'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/xr_backends/openxr_view.cpp:345: undefined reference to `log_infof'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/xr_backends/openxr_view.cpp:376: undefined reference to `sk::log_fail_reason(int, sk::log_, char const*)'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/xr_backends/openxr_view.cpp:386: undefined reference to `sk::device_data'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/xr_backends/openxr_view.cpp:387: undefined reference to `sk::device_data'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/xr_backends/openxr_view.cpp:388: undefined reference to `sk::device_data'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/xr_backends/openxr_view.cpp:389: undefined reference to `sk::device_data'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/xr_backends/openxr_view.cpp:391: undefined reference to `sk::device_data'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/target/x86_64-unknown-linux-musl/debug/deps/libstereokit_sys-c91d31f25ec4226a.rlib(openxr_view.o):/home/nova/xr/stereokit-sys/StereoKit/StereoKitC/xr_backends/openxr_view.cpp:392: more undefined references to `sk::device_data' follow
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/target/x86_64-unknown-linux-musl/debug/deps/libstereokit_sys-c91d31f25ec4226a.rlib(openxr_view.o): in function `sk::openxr_preferred_blend(XrViewConfigurationType, sk::display_blend_, sk::display_blend_*, XrEnvironmentBlendMode*)':
+          /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/xr_backends/openxr_view.cpp:613: undefined reference to `log_infof'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/xr_backends/openxr_view.cpp:616: undefined reference to `log_infof'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/target/x86_64-unknown-linux-musl/debug/deps/libstereokit_sys-c91d31f25ec4226a.rlib(openxr_view.o): in function `sk::openxr_update_swapchains(sk::device_display_t&)':
+          /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/xr_backends/openxr_view.cpp:425: undefined reference to `log_diagf'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/xr_backends/openxr_view.cpp:491: undefined reference to `sk::device_data'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/xr_backends/openxr_view.cpp:492: undefined reference to `sk::device_data'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/target/x86_64-unknown-linux-musl/debug/deps/libstereokit_sys-c91d31f25ec4226a.rlib(openxr_view.o): in function `sk::openxr_create_swapchain(sk::swapchain_t&, XrViewConfigurationType, bool, unsigned int, long, int, int, int)':
+          /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/xr_backends/openxr_view.cpp:527: undefined reference to `log_infof'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/xr_backends/openxr_view.cpp:532: undefined reference to `log_infof'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/xr_backends/openxr_view.cpp:550: undefined reference to `log_infof'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/target/x86_64-unknown-linux-musl/debug/deps/libstereokit_sys-c91d31f25ec4226a.rlib(openxr_view.o): in function `sk::openxr_render_frame()':
+          /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/xr_backends/openxr_view.cpp:661: undefined reference to `log_infof'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/xr_backends/openxr_view.cpp:665: undefined reference to `stm_now'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/xr_backends/openxr_view.cpp:693: undefined reference to `log_infof'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/xr_backends/openxr_view.cpp:743: undefined reference to `log_infof'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/target/x86_64-unknown-linux-musl/debug/deps/libstereokit_sys-c91d31f25ec4226a.rlib(openxr_view.o): in function `sk::openxr_render_layer(long, sk::device_display_t&, sk::render_layer_)':
+          /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/xr_backends/openxr_view.cpp:786: undefined reference to `sk::device_data'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/xr_backends/openxr_view.cpp:787: undefined reference to `sk::device_data'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/xr_backends/openxr_view.cpp:788: undefined reference to `sk::device_data'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/xr_backends/openxr_view.cpp:789: undefined reference to `sk::device_data'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/target/x86_64-unknown-linux-musl/debug/deps/libstereokit_sys-c91d31f25ec4226a.rlib(openxr_view.o): in function `sk::openxr_views_update_fov()':
+          /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/xr_backends/openxr_view.cpp:889: undefined reference to `sk::device_data'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/target/x86_64-unknown-linux-musl/debug/deps/libstereokit_sys-c91d31f25ec4226a.rlib(openxr_view.o):/home/nova/xr/stereokit-sys/StereoKit/StereoKitC/xr_backends/openxr_view.cpp:890: more undefined references to `sk::device_data' follow
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/target/x86_64-unknown-linux-musl/debug/deps/libstereokit_sys-c91d31f25ec4226a.rlib(backend.o): in function `backend_xr_get_type':
+          /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/backend.cpp:13: undefined reference to `device_display_get_type'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/target/x86_64-unknown-linux-musl/debug/deps/libstereokit_sys-c91d31f25ec4226a.rlib(hand_oxr_articulated.o): in function `sk::hand_oxra_init()':
+          /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/hands/hand_oxr_articulated.cpp:85: undefined reference to `log_warnf'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/hands/hand_oxr_articulated.cpp:132: undefined reference to `log_warnf'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/target/x86_64-unknown-linux-musl/debug/deps/libstereokit_sys-c91d31f25ec4226a.rlib(hand_oxr_articulated.o): in function `sk::hand_oxra_update_system_meshes()':
+          /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/hands/hand_oxr_articulated.cpp:333: undefined reference to `mesh_set_inds'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/hands/hand_oxr_articulated.cpp:343: undefined reference to `mesh_set_verts'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/target/x86_64-unknown-linux-musl/debug/deps/libstereokit_sys-c91d31f25ec4226a.rlib(system.o): in function `sk::systems_sort()':
+          /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/systems/system.cpp:74: undefined reference to `log_errf'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/systems/system.cpp:85: undefined reference to `log_errf'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/systems/system.cpp:100: undefined reference to `log_errf'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/systems/system.cpp:110: undefined reference to `log_errf'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/target/x86_64-unknown-linux-musl/debug/deps/libstereokit_sys-c91d31f25ec4226a.rlib(system.o): in function `sk::systems_initialize()':
+          /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/systems/system.cpp:133: undefined reference to `log_diagf'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/systems/system.cpp:136: undefined reference to `stm_now'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/systems/system.cpp:139: undefined reference to `log_errf'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/systems/system.cpp:144: undefined reference to `stm_since'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/systems/system.cpp:148: undefined reference to `log_info'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/target/x86_64-unknown-linux-musl/debug/deps/libstereokit_sys-c91d31f25ec4226a.rlib(system.o): in function `sk::systems_update()':
+          /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/systems/system.cpp:158: undefined reference to `stm_now'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/systems/system.cpp:164: undefined reference to `stm_since'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/target/x86_64-unknown-linux-musl/debug/deps/libstereokit_sys-c91d31f25ec4226a.rlib(system.o): in function `sk::systems_shutdown()':
+          /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/systems/system.cpp:179: undefined reference to `stm_now'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/systems/system.cpp:184: undefined reference to `stm_since'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/systems/system.cpp:188: undefined reference to `log_info'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/systems/system.cpp:189: undefined reference to `log_info'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/systems/system.cpp:190: undefined reference to `log_info'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/systems/system.cpp:191: undefined reference to `log_info'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/systems/system.cpp:198: undefined reference to `stm_ms'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/systems/system.cpp:203: undefined reference to `stm_ms'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/systems/system.cpp:209: undefined reference to `stm_ms'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/systems/system.cpp:213: undefined reference to `log_infof'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/systems/system.cpp:215: undefined reference to `log_info'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/target/x86_64-unknown-linux-musl/debug/deps/libstereokit_sys-c91d31f25ec4226a.rlib(defaults.o): in function `sk::defaults_init()':
+          /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/systems/defaults.cpp:150: undefined reference to `mesh_create'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/systems/defaults.cpp:157: undefined reference to `mesh_set_data'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/systems/defaults.cpp:160: undefined reference to `mesh_create'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/systems/defaults.cpp:167: undefined reference to `mesh_set_data'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/systems/defaults.cpp:169: undefined reference to `mesh_gen_cube'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/systems/defaults.cpp:170: undefined reference to `mesh_gen_sphere'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/systems/defaults.cpp:172: undefined reference to `mesh_set_id'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/systems/defaults.cpp:173: undefined reference to `mesh_set_id'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/systems/defaults.cpp:174: undefined reference to `mesh_set_id'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/systems/defaults.cpp:175: undefined reference to `mesh_set_id'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/systems/defaults.cpp:181: undefined reference to `shader_create_mem'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/systems/defaults.cpp:182: undefined reference to `shader_create_mem'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/systems/defaults.cpp:183: undefined reference to `shader_create_mem'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/systems/defaults.cpp:184: undefined reference to `shader_create_mem'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/systems/defaults.cpp:185: undefined reference to `shader_create_mem'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/target/x86_64-unknown-linux-musl/debug/deps/libstereokit_sys-c91d31f25ec4226a.rlib(defaults.o):/home/nova/xr/stereokit-sys/StereoKit/StereoKitC/systems/defaults.cpp:186: more undefined references to `shader_create_mem' follow
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/target/x86_64-unknown-linux-musl/debug/deps/libstereokit_sys-c91d31f25ec4226a.rlib(defaults.o): in function `sk::defaults_init()':
+          /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/systems/defaults.cpp:201: undefined reference to `shader_addref'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/systems/defaults.cpp:205: undefined reference to `shader_addref'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/systems/defaults.cpp:223: undefined reference to `shader_set_id'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/systems/defaults.cpp:224: undefined reference to `shader_set_id'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/systems/defaults.cpp:225: undefined reference to `shader_set_id'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/systems/defaults.cpp:226: undefined reference to `shader_set_id'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/systems/defaults.cpp:227: undefined reference to `shader_set_id'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/target/x86_64-unknown-linux-musl/debug/deps/libstereokit_sys-c91d31f25ec4226a.rlib(defaults.o):/home/nova/xr/stereokit-sys/StereoKit/StereoKitC/systems/defaults.cpp:228: more undefined references to `shader_set_id' follow
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/target/x86_64-unknown-linux-musl/debug/deps/libstereokit_sys-c91d31f25ec4226a.rlib(defaults.o): in function `sk::defaults_init()':
+          /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/systems/defaults.cpp:238: undefined reference to `material_create'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/systems/defaults.cpp:239: undefined reference to `material_create'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/systems/defaults.cpp:240: undefined reference to `material_create'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/systems/defaults.cpp:241: undefined reference to `material_create'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/systems/defaults.cpp:242: undefined reference to `material_create'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/target/x86_64-unknown-linux-musl/debug/deps/libstereokit_sys-c91d31f25ec4226a.rlib(defaults.o):/home/nova/xr/stereokit-sys/StereoKit/StereoKitC/systems/defaults.cpp:243: more undefined references to `material_create' follow
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/target/x86_64-unknown-linux-musl/debug/deps/libstereokit_sys-c91d31f25ec4226a.rlib(defaults.o): in function `sk::defaults_init()':
+          /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/systems/defaults.cpp:261: undefined reference to `material_set_id'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/systems/defaults.cpp:262: undefined reference to `material_set_id'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/systems/defaults.cpp:263: undefined reference to `material_set_id'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/systems/defaults.cpp:264: undefined reference to `material_set_id'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/systems/defaults.cpp:265: undefined reference to `material_set_id'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/target/x86_64-unknown-linux-musl/debug/deps/libstereokit_sys-c91d31f25ec4226a.rlib(defaults.o):/home/nova/xr/stereokit-sys/StereoKit/StereoKitC/systems/defaults.cpp:266: more undefined references to `material_set_id' follow
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/target/x86_64-unknown-linux-musl/debug/deps/libstereokit_sys-c91d31f25ec4226a.rlib(defaults.o): in function `sk::defaults_init()':
+          /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/systems/defaults.cpp:272: undefined reference to `material_set_texture'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/systems/defaults.cpp:273: undefined reference to `material_set_cull'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/systems/defaults.cpp:280: undefined reference to `sk::platform_default_font()'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/target/x86_64-unknown-linux-musl/debug/deps/libstereokit_sys-c91d31f25ec4226a.rlib(defaults.o): in function `sk::defaults_shutdown()':
+          /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/systems/defaults.cpp:343: undefined reference to `material_release'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/systems/defaults.cpp:344: undefined reference to `material_release'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/systems/defaults.cpp:345: undefined reference to `material_release'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/systems/defaults.cpp:346: undefined reference to `material_release'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/systems/defaults.cpp:347: undefined reference to `material_release'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/target/x86_64-unknown-linux-musl/debug/deps/libstereokit_sys-c91d31f25ec4226a.rlib(defaults.o):/home/nova/xr/stereokit-sys/StereoKit/StereoKitC/systems/defaults.cpp:348: more undefined references to `material_release' follow
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/target/x86_64-unknown-linux-musl/debug/deps/libstereokit_sys-c91d31f25ec4226a.rlib(defaults.o): in function `sk::defaults_shutdown()':
+          /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/systems/defaults.cpp:353: undefined reference to `shader_release'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/systems/defaults.cpp:354: undefined reference to `shader_release'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/systems/defaults.cpp:355: undefined reference to `shader_release'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/systems/defaults.cpp:356: undefined reference to `shader_release'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/systems/defaults.cpp:357: undefined reference to `shader_release'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/target/x86_64-unknown-linux-musl/debug/deps/libstereokit_sys-c91d31f25ec4226a.rlib(defaults.o):/home/nova/xr/stereokit-sys/StereoKit/StereoKitC/systems/defaults.cpp:358: more undefined references to `shader_release' follow
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/target/x86_64-unknown-linux-musl/debug/deps/libstereokit_sys-c91d31f25ec4226a.rlib(defaults.o): in function `sk::defaults_shutdown()':
+          /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/systems/defaults.cpp:366: undefined reference to `mesh_release'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/systems/defaults.cpp:367: undefined reference to `mesh_release'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/systems/defaults.cpp:368: undefined reference to `mesh_release'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/systems/defaults.cpp:369: undefined reference to `mesh_release'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/target/x86_64-unknown-linux-musl/debug/deps/libstereokit_sys-c91d31f25ec4226a.rlib(text.o): in function `text_make_style_mat':
+          /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/systems/text.cpp:131: undefined reference to `log_err'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/systems/text.cpp:146: undefined reference to `mesh_create'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/systems/text.cpp:151: undefined reference to `material_addref'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/systems/text.cpp:154: undefined reference to `material_set_texture'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/systems/text.cpp:155: undefined reference to `material_set_cull'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/systems/text.cpp:156: undefined reference to `material_set_transparency'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/systems/text.cpp:157: undefined reference to `material_set_depth_test'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/systems/text.cpp:159: undefined reference to `mesh_set_keep_data'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/target/x86_64-unknown-linux-musl/debug/deps/libstereokit_sys-c91d31f25ec4226a.rlib(text.o): in function `sk::text_update()':
+          /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/systems/text.cpp:595: undefined reference to `mesh_set_verts'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/systems/text.cpp:596: undefined reference to `mesh_set_draw_inds'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/target/x86_64-unknown-linux-musl/debug/deps/libstereokit_sys-c91d31f25ec4226a.rlib(text.o): in function `sk::text_shutdown()':
+          /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/systems/text.cpp:608: undefined reference to `mesh_release'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/systems/text.cpp:610: undefined reference to `material_release'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/target/x86_64-unknown-linux-musl/debug/deps/libstereokit_sys-c91d31f25ec4226a.rlib(text.o):(.debug_info+0x210d): undefined reference to `utf8_decode_fast_b(char const*, char const**, char32_t*)'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/target/x86_64-unknown-linux-musl/debug/deps/libstereokit_sys-c91d31f25ec4226a.rlib(text.o):(.debug_info+0x21c7): undefined reference to `utf16_decode_fast_b(char16_t const*, char16_t const**, char32_t*)'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/target/x86_64-unknown-linux-musl/debug/deps/libstereokit_sys-c91d31f25ec4226a.rlib(text.o):(.debug_info+0x232d): undefined reference to `utf8_decode_fast_b(char const*, char const**, char32_t*)'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/target/x86_64-unknown-linux-musl/debug/deps/libstereokit_sys-c91d31f25ec4226a.rlib(text.o):(.debug_info+0x2493): undefined reference to `utf16_decode_fast_b(char16_t const*, char16_t const**, char32_t*)'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/target/x86_64-unknown-linux-musl/debug/deps/libstereokit_sys-c91d31f25ec4226a.rlib(text.o):(.debug_info+0x28fa): undefined reference to `utf8_decode_fast_b(char const*, char const**, char32_t*)'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/target/x86_64-unknown-linux-musl/debug/deps/libstereokit_sys-c91d31f25ec4226a.rlib(text.o):(.debug_info+0x2af2): undefined reference to `utf16_decode_fast_b(char16_t const*, char16_t const**, char32_t*)'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/target/x86_64-unknown-linux-musl/debug/deps/libstereokit_sys-c91d31f25ec4226a.rlib(text.o):(.debug_info+0x2ce1): undefined reference to `utf8_decode_fast_b(char const*, char const**, char32_t*)'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/target/x86_64-unknown-linux-musl/debug/deps/libstereokit_sys-c91d31f25ec4226a.rlib(text.o):(.debug_info+0x2ddc): undefined reference to `utf8_decode_fast_b(char const*, char const**, char32_t*)'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/target/x86_64-unknown-linux-musl/debug/deps/libstereokit_sys-c91d31f25ec4226a.rlib(text.o):(.debug_info+0x2f6d): undefined reference to `utf8_decode_fast_b(char const*, char const**, char32_t*)'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/target/x86_64-unknown-linux-musl/debug/deps/libstereokit_sys-c91d31f25ec4226a.rlib(text.o):(.debug_info+0x303b): undefined reference to `utf16_decode_fast_b(char16_t const*, char16_t const**, char32_t*)'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/target/x86_64-unknown-linux-musl/debug/deps/libstereokit_sys-c91d31f25ec4226a.rlib(text.o):(.debug_info+0x30bc): undefined reference to `utf16_decode_fast_b(char16_t const*, char16_t const**, char32_t*)'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/target/x86_64-unknown-linux-musl/debug/deps/libstereokit_sys-c91d31f25ec4226a.rlib(text.o):(.debug_info+0x324d): undefined reference to `utf16_decode_fast_b(char16_t const*, char16_t const**, char32_t*)'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/target/x86_64-unknown-linux-musl/debug/deps/libstereokit_sys-c91d31f25ec4226a.rlib(text.o):(.debug_info+0x33d8): undefined reference to `utf8_decode_fast_b(char const*, char const**, char32_t*)'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/target/x86_64-unknown-linux-musl/debug/deps/libstereokit_sys-c91d31f25ec4226a.rlib(text.o):(.debug_info+0x344c): undefined reference to `utf16_decode_fast_b(char16_t const*, char16_t const**, char32_t*)'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/target/x86_64-unknown-linux-musl/debug/deps/libstereokit_sys-c91d31f25ec4226a.rlib(sprite_drawer.o): in function `sk::sprite_drawer_add_buffer(sk::_material_t*)':
+          /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/systems/sprite_drawer.cpp:26: undefined reference to `mesh_create'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/target/x86_64-unknown-linux-musl/debug/deps/libstereokit_sys-c91d31f25ec4226a.rlib(sprite_drawer.o): in function `sk::sprite_drawer_init()':
+          /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/systems/sprite_drawer.cpp:115: undefined reference to `mesh_find'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/systems/sprite_drawer.cpp:118: undefined reference to `mesh_create'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/systems/sprite_drawer.cpp:126: undefined reference to `mesh_set_id'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/systems/sprite_drawer.cpp:127: undefined reference to `mesh_set_keep_data'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/systems/sprite_drawer.cpp:128: undefined reference to `mesh_set_data'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/target/x86_64-unknown-linux-musl/debug/deps/libstereokit_sys-c91d31f25ec4226a.rlib(sprite_drawer.o): in function `sk::sprite_drawer_update()':
+          /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/systems/sprite_drawer.cpp:141: undefined reference to `mesh_set_verts'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/systems/sprite_drawer.cpp:142: undefined reference to `mesh_set_draw_inds'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/target/x86_64-unknown-linux-musl/debug/deps/libstereokit_sys-c91d31f25ec4226a.rlib(sprite_drawer.o): in function `sk::sprite_drawer_shutdown()':
+          /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/systems/sprite_drawer.cpp:152: undefined reference to `mesh_release'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/systems/sprite_drawer.cpp:153: undefined reference to `mesh_release'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/systems/sprite_drawer.cpp:156: undefined reference to `mesh_release'
+          /usr/bin/ld: /home/nova/xr/stereokit-sys/StereoKit/StereoKitC/systems/sprite_drawer.cpp:157: undefined reference to `material_release'
+          collect2: error: ld returned 1 exit status
+          
+  = note: some `extern` functions couldn't be found; some native libraries may need to be installed or have their path specified
+  = note: use the `-l` flag to specify native libraries to link
+  = note: use the `cargo:rustc-link-lib` directive to specify the native libraries to link with Cargo (see https://doc.rust-lang.org/cargo/reference/build-scripts.html#cargorustc-link-libkindname)
+
+The following warnings were emitted during compilation:
+
+warning: clang-15: [0;1;35mwarning: [0m[1mtreating 'c-header' input as 'c++-header' when in C++ mode, this behavior is deprecated [-Wdeprecated][0m
+warning: clang-15: [0;1;35mwarning: [0m[1mtreating 'c-header' input as 'c++-header' when in C++ mode, this behavior is deprecated [-Wdeprecated][0m
+warning: clang-15: [0;1;35mwarning: [0m[1mtreating 'c-header' input as 'c++-header' when in C++ mode, this behavior is deprecated [-Wdeprecated][0m
+warning: clang-15: [0;1;35mwarning: [0m[1mtreating 'c-header' input as 'c++-header' when in C++ mode, this behavior is deprecated [-Wdeprecated][0m
+warning: clang-15: [0;1;35mwarning: [0m[1mtreating 'c-header' input as 'c++-header' when in C++ mode, this behavior is deprecated [-Wdeprecated][0m
+warning: clang-15: [0;1;35mwarning: [0m[1mtreating 'c-header' input as 'c++-header' when in C++ mode, this behavior is deprecated [-Wdeprecated][0m
+warning: clang-15: [0;1;35mwarning: [0m[1mtreating 'c-header' input as 'c++-header' when in C++ mode, this behavior is deprecated [-Wdeprecated][0m
+warning: clang-15: [0;1;35mwarning: [0m[1mtreating 'c-header' input as 'c++-header' when in C++ mode, this behavior is deprecated [-Wdeprecated][0m
+warning: clang-15: [0;1;35mwarning: [0m[1mtreating 'c-header' input as 'c++-header' when in C++ mode, this behavior is deprecated [-Wdeprecated][0m
+warning: clang-15: [0;1;35mwarning: [0m[1mtreating 'c-header' input as 'c++-header' when in C++ mode, this behavior is deprecated [-Wdeprecated][0m
+warning: clang-15: [0;1;35mwarning: [0m[1mtreating 'c-header' input as 'c++-header' when in C++ mode, this behavior is deprecated [-Wdeprecated][0m
+warning: clang-15: [0;1;35mwarning: [0m[1mtreating 'c-header' input as 'c++-header' when in C++ mode, this behavior is deprecated [-Wdeprecated][0m
+warning: clang-15: [0;1;35mwarning: [0m[1mtreating 'c-header' input as 'c++-header' when in C++ mode, this behavior is deprecated [-Wdeprecated][0m
+warning: clang-15: [0;1;35mwarning: [0m[1mtreating 'c-header' input as 'c++-header' when in C++ mode, this behavior is deprecated [-Wdeprecated][0m
+warning: clang-15: [0;1;35mwarning: [0m[1mtreating 'c-header' input as 'c++-header' when in C++ mode, this behavior is deprecated [-Wdeprecated][0m
+warning: clang-15: [0;1;35mwarning: [0m[1mtreating 'c-header' input as 'c++-header' when in C++ mode, this behavior is deprecated [-Wdeprecated][0m
+warning: clang-15: [0;1;35mwarning: [0m[1mtreating 'c-header' input as 'c++-header' when in C++ mode, this behavior is deprecated [-Wdeprecated][0m
+warning: clang-15: [0;1;35mwarning: [0m[1mtreating 'c-header' input as 'c++-header' when in C++ mode, this behavior is deprecated [-Wdeprecated][0m
+warning: clang-15: [0;1;35mwarning: [0m[1mtreating 'c-header' input as 'c++-header' when in C++ mode, this behavior is deprecated [-Wdeprecated][0m
+warning: clang-15: [0;1;35mwarning: [0m[1mtreating 'c-header' input as 'c++-header' when in C++ mode, this behavior is deprecated [-Wdeprecated][0m
+warning: clang-15: [0;1;35mwarning: [0m[1mtreating 'c-header' input as 'c++-header' when in C++ mode, this behavior is deprecated [-Wdeprecated][0m
+warning: clang-15: [0;1;35mwarning: [0m[1mtreating 'c-header' input as 'c++-header' when in C++ mode, this behavior is deprecated [-Wdeprecated][0m
+warning: clang-15: [0;1;35mwarning: [0m[1mtreating 'c-header' input as 'c++-header' when in C++ mode, this behavior is deprecated [-Wdeprecated][0m
+warning: clang-15: [0;1;35mwarning: [0m[1mtreating 'c-header' input as 'c++-header' when in C++ mode, this behavior is deprecated [-Wdeprecated][0m
+warning: clang-15: [0;1;35mwarning: [0m[1mtreating 'c-header' input as 'c++-header' when in C++ mode, this behavior is deprecated [-Wdeprecated][0m
+warning: clang-15: [0;1;35mwarning: [0m[1mtreating 'c-header' input as 'c++-header' when in C++ mode, this behavior is deprecated [-Wdeprecated][0m
+warning: clang-15: [0;1;35mwarning: [0m[1mtreating 'c-header' input as 'c++-header' when in C++ mode, this behavior is deprecated [-Wdeprecated][0m
+warning: clang-15: [0;1;35mwarning: [0m[1mtreating 'c-header' input as 'c++-header' when in C++ mode, this behavior is deprecated [-Wdeprecated][0m
+warning: clang-15: [0;1;35mwarning: [0m[1mtreating 'c-header' input as 'c++-header' when in C++ mode, this behavior is deprecated [-Wdeprecated][0m
+warning: clang-15: [0;1;35mwarning: [0m[1mtreating 'c-header' input as 'c++-header' when in C++ mode, this behavior is deprecated [-Wdeprecated][0m
+warning: clang-15: [0;1;35mwarning: [0m[1mtreating 'c-header' input as 'c++-header' when in C++ mode, this behavior is deprecated [-Wdeprecated][0m
+warning: clang-15: [0;1;35mwarning: [0m[1mtreating 'c-header' input as 'c++-header' when in C++ mode, this behavior is deprecated [-Wdeprecated][0m
+warning: clang-15: [0;1;35mwarning: [0m[1mtreating 'c-header' input as 'c++-header' when in C++ mode, this behavior is deprecated [-Wdeprecated][0m
+warning: clang-15: [0;1;35mwarning: [0m[1mtreating 'c-header' input as 'c++-header' when in C++ mode, this behavior is deprecated [-Wdeprecated][0m
+warning: clang-15: [0;1;35mwarning: [0m[1mtreating 'c-header' input as 'c++-header' when in C++ mode, this behavior is deprecated [-Wdeprecated][0m
+warning: clang-15: [0;1;35mwarning: [0m[1mtreating 'c-header' input as 'c++-header' when in C++ mode, this behavior is deprecated [-Wdeprecated][0m
+warning: clang-15: [0;1;35mwarning: [0m[1mtreating 'c-header' input as 'c++-header' when in C++ mode, this behavior is deprecated [-Wdeprecated][0m
+warning: clang-15: [0;1;35mwarning: [0m[1mtreating 'c-header' input as 'c++-header' when in C++ mode, this behavior is deprecated [-Wdeprecated][0m
+warning: clang-15: [0;1;35mwarning: [0m[1mtreating 'c-header' input as 'c++-header' when in C++ mode, this behavior is deprecated [-Wdeprecated][0m
+warning: clang-15: [0;1;35mwarning: [0m[1mtreating 'c-header' input as 'c++-header' when in C++ mode, this behavior is deprecated [-Wdeprecated][0m
+warning: clang-15: [0;1;35mwarning: [0m[1mtreating 'c-header' input as 'c++-header' when in C++ mode, this behavior is deprecated [-Wdeprecated][0m
+warning: clang-15: [0;1;35mwarning: [0m[1mtreating 'c-header' input as 'c++-header' when in C++ mode, this behavior is deprecated [-Wdeprecated][0m
+warning: clang-15: [0;1;35mwarning: [0m[1mtreating 'c-header' input as 'c++-header' when in C++ mode, this behavior is deprecated [-Wdeprecated][0m
+warning: clang-15: [0;1;35mwarning: [0m[1mtreating 'c-header' input as 'c++-header' when in C++ mode, this behavior is deprecated [-Wdeprecated][0m
+warning: clang-15: [0;1;35mwarning: [0m[1mtreating 'c-header' input as 'c++-header' when in C++ mode, this behavior is deprecated [-Wdeprecated][0m
+warning: clang-15: [0;1;35mwarning: [0m[1mtreating 'c-header' input as 'c++-header' when in C++ mode, this behavior is deprecated [-Wdeprecated][0m
+warning: clang-15: [0;1;35mwarning: [0m[1mtreating 'c-header' input as 'c++-header' when in C++ mode, this behavior is deprecated [-Wdeprecated][0m
+warning: clang-15: [0;1;35mwarning: [0m[1mtreating 'c-header' input as 'c++-header' when in C++ mode, this behavior is deprecated [-Wdeprecated][0m
+warning: clang-15: [0;1;35mwarning: [0m[1mtreating 'c-header' input as 'c++-header' when in C++ mode, this behavior is deprecated [-Wdeprecated][0m
+warning: clang-15: [0;1;35mwarning: [0m[1mtreating 'c-header' input as 'c++-header' when in C++ mode, this behavior is deprecated [-Wdeprecated][0m
+warning: clang-15: [0;1;35mwarning: [0m[1mtreating 'c-header' input as 'c++-header' when in C++ mode, this behavior is deprecated [-Wdeprecated][0m
+warning: clang-15: [0;1;35mwarning: [0m[1mtreating 'c-header' input as 'c++-header' when in C++ mode, this behavior is deprecated [-Wdeprecated][0m
+warning: clang-15: [0;1;35mwarning: [0m[1mtreating 'c-header' input as 'c++-header' when in C++ mode, this behavior is deprecated [-Wdeprecated][0m
+warning: clang-15: [0;1;35mwarning: [0m[1mtreating 'c-header' input as 'c++-header' when in C++ mode, this behavior is deprecated [-Wdeprecated][0m
+warning: clang-15: [0;1;35mwarning: [0m[1mtreating 'c-header' input as 'c++-header' when in C++ mode, this behavior is deprecated [-Wdeprecated][0m
+warning: cargo:warning=clang-15: [0;1;35mwarning: [0m[1mtreating 'c-header' input as 'c++-header' when in C++ mode, this behavior is deprecated [-Wdeprecated][0mclang-15: [0;1;35mwarning: [0m[1mtreating 'c-header' input as 'c++-header' when in C++ mode, this behavior is deprecated [-Wdeprecated][0m
+warning: clang-15: [0;1;35mwarning: [0m[1mtreating 'c-header' input as 'c++-header' when in C++ mode, this behavior is deprecated [-Wdeprecated][0m
+warning: [1mStereoKit/StereoKitC/asset_types/animation.cpp:165:11: [0m[0;1;35mwarning: [0m[1menumeration value 'anim_element_weights' not handled in switch [-Wswitch][0m
+warning:                 switch (anim->curves[i].applies_to) {
+warning: [0;1;32m                        ^~~~~~~~~~~~~~~~~~~~~~~~~~
+warning: [0m1 warning generated.
+warning: clang-15: [0;1;35mwarning: [0m[1mtreating 'c-header' input as 'c++-header' when in C++ mode, this behavior is deprecated [-Wdeprecated][0m
+warning: clang-15: [0;1;35mwarning: [0m[1mtreating 'c-header' input as 'c++-header' when in C++ mode, this behavior is deprecated [-Wdeprecated][0m
+warning: clang-15: [0;1;35mwarning: [0m[1mtreating 'c-header' input as 'c++-header' when in C++ mode, this behavior is deprecated [-Wdeprecated][0m
+warning: clang-15: [0;1;35mwarning: [0m[1mtreating 'c-header' input as 'c++-header' when in C++ mode, this behavior is deprecated [-Wdeprecated][0m
+warning: clang-15: [0;1;35mwarning: [0m[1mtreating 'c-header' input as 'c++-header' when in C++ mode, this behavior is deprecated [-Wdeprecated][0m
+warning: clang-15: [0;1;35mwarning: [0m[1mtreating 'c-header' input as 'c++-header' when in C++ mode, this behavior is deprecated [-Wdeprecated][0m
+warning: clang-15: [0;1;35mwarning: [0m[1mtreating 'c-header' input as 'c++-header' when in C++ mode, this behavior is deprecated [-Wdeprecated][0m
+warning: clang-15: [0;1;35mwarning: [0m[1mtreating 'c-header' input as 'c++-header' when in C++ mode, this behavior is deprecated [-Wdeprecated][0m
+warning: clang-15: [0;1;35mwarning: [0m[1mtreating 'c-header' input as 'c++-header' when in C++ mode, this behavior is deprecated [-Wdeprecated][0m
+warning: clang-15: [0;1;35mwarning: [0m[1mtreating 'c-header' input as 'c++-header' when in C++ mode, this behavior is deprecated [-Wdeprecated][0m
+warning: clang-15: [0;1;35mwarning: [0m[1mtreating 'c-header' input as 'c++-header' when in C++ mode, this behavior is deprecated [-Wdeprecated][0m
+warning: clang-15: [0;1;35mwarning: [0m[1mtreating 'c-header' input as 'c++-header' when in C++ mode, this behavior is deprecated [-Wdeprecated][0m
+warning: clang-15: [0;1;35mwarning: [0m[1mtreating 'c-header' input as 'c++-header' when in C++ mode, this behavior is deprecated [-Wdeprecated][0m
+warning: clang-15: [0;1;35mwarning: [0m[1mtreating 'c-header' input as 'c++-header' when in C++ mode, this behavior is deprecated [-Wdeprecated][0m
+warning: clang-15: [0;1;35mwarning: [0m[1mtreating 'c-header' input as 'c++-header' when in C++ mode, this behavior is deprecated [-Wdeprecated][0m
+warning: clang-15: [0;1;35mwarning: [0m[1mtreating 'c-header' input as 'c++-header' when in C++ mode, this behavior is deprecated [-Wdeprecated][0m
+warning: clang-15: [0;1;35mwarning: [0m[1mtreating 'c-header' input as 'c++-header' when in C++ mode, this behavior is deprecated [-Wdeprecated][0m
+warning: clang-15: [0;1;35mwarning: [0m[1mtreating 'c-header' input as 'c++-header' when in C++ mode, this behavior is deprecated [-Wdeprecated][0m
+warning: clang-15: [0;1;35mwarning: [0m[1mtreating 'c-header' input as 'c++-header' when in C++ mode, this behavior is deprecated [-Wdeprecated][0m
+warning: clang-15: [0;1;35mwarning: [0m[1mtreating 'c-header' input as 'c++-header' when in C++ mode, this behavior is deprecated [-Wdeprecated][0m
+warning: clang-15: [0;1;35mwarning: [0m[1mtreating 'c-header' input as 'c++-header' when in C++ mode, this behavior is deprecated [-Wdeprecated][0m
+warning: clang-15: [0;1;35mwarning: [0m[1mtreating 'c-header' input as 'c++-header' when in C++ mode, this behavior is deprecated [-Wdeprecated][0m
+warning: clang-15: [0;1;35mwarning: [0m[1mtreating 'c-header' input as 'c++-header' when in C++ mode, this behavior is deprecated [-Wdeprecated][0m
+warning: clang-15: [0;1;35mwarning: [0m[1mtreating 'c-header' input as 'c++-header' when in C++ mode, this behavior is deprecated [-Wdeprecated][0m
+warning: clang-15: [0;1;35mwarning: [0m[1mtreating 'c-header' input as 'c++-header' when in C++ mode, this behavior is deprecated [-Wdeprecated][0m
+warning: clang-15: [0;1;35mwarning: [0m[1mtreating 'c-header' input as 'c++-header' when in C++ mode, this behavior is deprecated [-Wdeprecated][0m
+warning: clang-15: [0;1;35mwarning: [0m[1mtreating 'c-header' input as 'c++-header' when in C++ mode, this behavior is deprecated [-Wdeprecated][0m
+warning: clang-15: [0;1;35mwarning: [0m[1mtreating 'c-header' input as 'c++-header' when in C++ mode, this behavior is deprecated [-Wdeprecated][0m
+warning: clang-15: [0;1;35mwarning: [0m[1mtreating 'c-header' input as 'c++-header' when in C++ mode, this behavior is deprecated [-Wdeprecated][0m
+warning: clang-15: [0;1;35mwarning: [0m[1mtreating 'c-header' input as 'c++-header' when in C++ mode, this behavior is deprecated [-Wdeprecated][0m
+warning: clang-15: [0;1;35mwarning: [0m[1mtreating 'c-header' input as 'c++-header' when in C++ mode, this behavior is deprecated [-Wdeprecated][0m
+warning: clang-15: [0;1;35mwarning: [0m[1mtreating 'c-header' input as 'c++-header' when in C++ mode, this behavior is deprecated [-Wdeprecated][0m
+warning: clang-15: [0;1;35mwarning: [0m[1mtreating 'c-header' input as 'c++-header' when in C++ mode, this behavior is deprecated [-Wdeprecated][0m
+warning: clang-15: [0;1;35mwarning: [0m[1mtreating 'c-header' input as 'c++-header' when in C++ mode, this behavior is deprecated [-Wdeprecated][0m
+warning: [1mStereoKit/StereoKitC/xr_backends/openxr_view.cpp:231:11: [0m[0;1;35mwarning: [0m[1menumeration values 'display_blend_none' and 'display_blend_any_transparent' not handled in switch [-Wswitch][0m
+warning:                 switch (blend) {
+warning: [0;1;32m                        ^~~~~
+warning: [0m[1mStereoKit/StereoKitC/xr_backends/openxr_view.cpp:623:11: [0m[0;1;35mwarning: [0m[1menumeration value 'XR_ENVIRONMENT_BLEND_MODE_MAX_ENUM' not handled in switch [-Wswitch][0m
+warning:                 switch (blend_modes[i]) {
+warning: [0;1;32m                        ^~~~~~~~~~~~~~
+warning: [0m2 warnings generated.
+
+error: could not compile `stereokit-sys` (example "cube") due to previous error
