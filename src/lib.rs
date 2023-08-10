@@ -7,7 +7,10 @@ include!(concat!(env!("OUT_DIR"), "/bindings.rs"));
 #[repr(C)]
 #[derive(Debug, Copy, Clone, Default)]
 #[cfg_attr(feature = "bevy_ecs", derive(bevy_ecs::prelude::Component))]
-#[cfg_attr(feature = "bevy_reflect", derive(bevy_reflect::prelude::Reflect, bevy_reflect::prelude::FromReflect))]
+#[cfg_attr(
+	feature = "bevy_reflect",
+	derive(bevy_reflect::prelude::Reflect, bevy_reflect::prelude::FromReflect)
+)]
 #[cfg_attr(feature = "bevy_reflect", reflect(Component))]
 #[cfg_attr(feature = "serde", derive(Serialize, Deserialize))]
 pub struct color128 {
@@ -18,12 +21,16 @@ pub struct color128 {
 }
 #[cfg(feature = "bevy_ecs")]
 use bevy_ecs::prelude::ReflectComponent;
+#[cfg(feature = "serde")]
 use serde::{Deserialize, Serialize};
 
 #[repr(C)]
 #[derive(Debug, Copy, Clone, Default)]
 #[cfg_attr(feature = "bevy_ecs", derive(bevy_ecs::prelude::Component))]
-#[cfg_attr(feature = "bevy_reflect", derive(bevy_reflect::prelude::Reflect, bevy_reflect::prelude::FromReflect))]
+#[cfg_attr(
+	feature = "bevy_reflect",
+	derive(bevy_reflect::prelude::Reflect, bevy_reflect::prelude::FromReflect)
+)]
 #[cfg_attr(feature = "bevy_reflect", reflect(Component))]
 #[cfg_attr(feature = "serde", derive(Serialize, Deserialize))]
 pub struct color32 {
@@ -41,7 +48,6 @@ impl Clone for sh_light_t {
 
 impl Copy for sh_light_t {}
 
-
 impl Clone for gradient_key_t {
 	fn clone(&self) -> Self {
 		*self
@@ -56,9 +62,7 @@ impl Clone for vert_t {
 	}
 }
 
-impl Copy for vert_t {
-
-}
+impl Copy for vert_t {}
 
 impl Clone for line_point_t {
 	fn clone(&self) -> Self {
