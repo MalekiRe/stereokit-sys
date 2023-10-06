@@ -234,6 +234,15 @@ impl From<[u8; 4]> for color32 {
 	}
 }
 
+// Bindgen exclusion to get a fat pointer (*mut) instead of a thin pointer (*const)
+extern "C" {
+	pub fn model_node_info_get(
+		model: model_t,
+		node: model_node_id,
+		info_key_utf8: *const ::std::os::raw::c_char,
+	) -> *mut ::std::os::raw::c_char;
+}
+
 #[cfg(feature = "prisma")]
 pub mod prisma_specific {
 	use crate::{color128, color32};

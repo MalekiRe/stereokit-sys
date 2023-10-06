@@ -219,6 +219,7 @@ fn main() {
 		.blocklist_function("y0l")
 		.blocklist_function("y1l")
 		.blocklist_function("ynl")
+		.blocklist_function("model_node_info_get")  // see the binding in lib.rs
 		.parse_callbacks(Box::new(MacroCallback { macros }))
 		.generate()
 		.expect("Unable to generate bindings");
