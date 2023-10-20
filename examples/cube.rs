@@ -25,6 +25,7 @@ fn main() {
 			android_java_vm: ptr::null_mut(),
 			android_activity: ptr::null_mut(),
     		origin: origin_mode__origin_mode_floor,
+			omit_empty_frames:0,
 		}) == 0
 		{
 			panic!("Unable to initialize StereoKit");
