@@ -7,6 +7,7 @@ fn main() {
 			app_name: ptr::null(),
 			assets_folder: ptr::null(),
 			display_preference: 0,
+			mode: 2,
 			blend_preference: 0,
 			no_flatscreen_fallback: 0,
 			depth_mode: 0,
