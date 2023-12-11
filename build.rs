@@ -52,8 +52,8 @@ fn main() {
 	cmake_config.define("SK_PHYSICS", cargo_cmake_feat!("physics")); // cannot get this to work on windows.
 	if target_os == "android" {
 		cmake_config.define("CMAKE_ANDROID_API", "25");
-		cmake_config.define("ANDROID_LIBRARY","there");
-		cmake_config.define("ANDROID_LOG_LIBRARY","there");
+		//cmake_config.define("ANDROID_LIBRARY","there");
+		//cargo clcmake_config.define("ANDROID_LOG_LIBRARY","there");
 		//cmake_config.define("ANDROID", "TRUE");
 	}
 
@@ -61,6 +61,7 @@ fn main() {
 
 	println!("cargo:rustc-link-search=native={}/lib", dst.display());
 	println!("cargo:rustc-link-search=native={}/lib64", dst.display());
+	println!("cargo:rustc-link-search=native={}/build", dst.display());
 	cargo_link!("static=StereoKitC");
 	match target_family.as_str() {
 		"windows" => {
@@ -94,13 +95,8 @@ fn main() {
 				cargo_link!("X11");
 				cargo_link!("Xfixes");
 				cargo_link!("GL");
-				if cfg!(feature = "linux-egl") {
-					cargo_link!("EGL");
-					cargo_link!("gbm");
-				} else {
-					cargo_link!("GLEW");
-					cargo_link!("GLX");
-				}
+				cargo_link!("EGL");
+				cargo_link!("gbm");
 				cargo_link!("fontconfig");
 			}
 		}
