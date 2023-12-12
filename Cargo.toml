@@ -24,8 +24,6 @@ include = [
 readme = "README.md"
 
 [features]
-default = []
-linux-egl = []
 physics = []
 
 [dependencies]

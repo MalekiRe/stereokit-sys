@@ -7,6 +7,7 @@ fn main() {
 			app_name: ptr::null(),
 			assets_folder: ptr::null(),
 			display_preference: 0,
+			mode: 2,
 			blend_preference: 0,
 			no_flatscreen_fallback: 0,
 			depth_mode: 0,
@@ -25,6 +26,7 @@ fn main() {
 			android_java_vm: ptr::null_mut(),
 			android_activity: ptr::null_mut(),
     		origin: origin_mode__origin_mode_floor,
+			omit_empty_frames:0,
 		}) == 0
 		{
 			panic!("Unable to initialize StereoKit");
@@ -40,14 +42,14 @@ unsafe extern "C" fn step() {
 		material_find(std::mem::transmute(default_id_material_ui_box)),
 		matrix_ts(
 			vec3 {
-				x: 0.0,
-				y: 0.0,
+				x: -0.0,
+				y: 1.3,
 				z: -0.5,
 			},
 			vec3 {
-				x: 0.1,
-				y: 0.1,
-				z: 0.1,
+				x: 0.5,
+				y: 0.5,
+				z: 0.5,
 			},
 		),
 		color128 {
