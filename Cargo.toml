@@ -7,7 +7,7 @@ license = "MIT"
 links = "StereoKitC"
 name = "stereokit-sys"
 repository = "https://github.com/MalekiRe/stereokit-sys"
-version = "2.5.6"
+version = "2.5.8"
 
 include = [
   "Cargo.toml",
@@ -29,19 +29,19 @@ linux-egl = []
 physics = []
 
 [dependencies]
-glam = "0.23.0"
+glam = "0.25.0"
 
 [dependencies.serde]
-version = "1.0.164"
+version = "1.0.195"
 optional = true
 features = ["derive"]
 
 [dependencies.bevy_reflect]
-version = "0.10.1"
+version = "0.12.1"
 optional = true
 
 [dependencies.bevy_ecs]
-version = "0.10.1"
+version = "0.12.1"
 optional = true
 
 [dependencies.prisma]
@@ -49,12 +49,12 @@ version = "0.1.1"
 optional = true
 
 [dependencies.palette]
-version = "0.6.1"
+version = "0.7.3"
 default-features = false
 optional = true
 features = ["std"]
 
 [build-dependencies]
-bindgen = "0.64.0"
-cmake = "0.1.49"
+bindgen = "0.69.2"
+cmake = "0.1.50"
 
